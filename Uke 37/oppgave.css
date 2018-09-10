@@ -1,0 +1,20 @@
+body{
+  background-color: grey;
+  font-family: cursive;
+  font-size: 24px;
+}
+h1 {
+  color: black;margin-left: 200px;
+  text-shadow: 4px 2px 100px blue,
+  8px 4px 100px red,
+  12px 8px 100px orange,
+  16px 12px 100px green,
+  20px 16px 100px purple;
+}
+p1{
+  color:yellow;
+}
+img{box-shadow: 4px 2px 100px blue,8px 4px 100px red,
+12px 8px 100px orange,
+16px 12px 100px green,
+20px 16px 100px purple;
