@@ -1,0 +1,35 @@
+
+main{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+padding-left: 100px;
+grid-column-gap: 50px;
+padding-top: 50px;
+padding-right: 100px;
+}
+main>p{
+background-color: green; text-align: center;
+padding: 80px;
+
+
+}
+
+
+#colorred{
+  background-color: red;
+}
+#colorblue{
+  background-color: orange;
+}
+
+main2{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+padding-left: 100px;
+grid-column-gap: 50px;
+padding-top: 50px;
+padding-right: 100px;
+}
+main2>p{
+background-color: green; text-align: center;
+padding: 80px;
