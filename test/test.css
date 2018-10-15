@@ -1,0 +1,16 @@
+main{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-row-gap: 20px;
+padding-left: 0px;
+}
+h1{
+  color: grey;
+}
+li{
+  display: inline;
+}
+p{
+  background-color: grey;
+  color: white;
+}

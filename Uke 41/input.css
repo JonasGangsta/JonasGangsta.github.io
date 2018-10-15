@@ -1,0 +1,10 @@
+input:focus{
+  width: 500px;
+}
+p:hover{
+  padding: 30px;
+}
+p::after{
+content: "denne teksten er kul";
+padding-left: 10px;
+}

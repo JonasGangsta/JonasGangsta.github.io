@@ -1,0 +1,43 @@
+/*Legger inn bakgrunnsfarge og padding på venstre side*/
+body{
+  background-color: lightblue;
+  padding-left: 200px;
+}
+/*Endrer overskriften til kursiv*/
+h1{
+font-style: italic;
+}
+/*Gjør at bildene blir 400px*/
+img{
+  width: 400px;
+}
+/*Lager stilen til navigasjonsbaren. Fjerner bullets, skjuler overflow og endrer bakgrunnsfargen til baren, og bestemmer hvor lang den skal være*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd; width: 350px;
+}
+/*Legger inn float fra venstre side*/
+li{
+    float: left;
+}
+/*Lager som block, legger padding mellom linkene og endrer fargen til blå*/
+li a{
+    display: block;
+    padding: 8px;
+    color: blue
+}
+/*Gjør sånn at linken endrer farge når man holder musen over*/
+li a:hover{
+  background-color: white;
+}
+/*Legger inn padding på footeren, vil gjerne ha den litt lengre ned på siden*/
+footer{
+  padding-top: 50px;
+}
+/*Endrer størrelsen på videovinduet*/
+video{
+  width: 300px;
+}

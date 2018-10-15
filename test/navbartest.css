@@ -1,0 +1,27 @@
+header>h1{
+  padding-left: 50px;
+}
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: grey;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  padding: 8px;
+}
+li a:hover {
+background-color: white
+}
+body{
+  background-color: lightblue;
+}
+main{
+  padding-left: 50px;
+  padding-right: 50px;
+}

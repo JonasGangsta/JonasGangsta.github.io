@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="no" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>
+<h1>Bryllup</h1>
+    </header>
+<main>
+  <ul>
+  <li><a href="Hovedside.html">Hovedside</a></li>
+  <li><a href="Barnebursdag.html">Barnebursdag</a></li>
+  <li><a href="Bryllup.html">Bryllup</a></li>
+  <li><a href="Klassefest.html">Klassefest</a></li>
+</ul>
+<img src="bryllup.jpg" alt="">
+<!--Lager et skjema ved å bruke form action, som linker til register (der hvor man blir tatt når man svarer)-->
+<form action="register.html">
+
+  <input type="text" name="" required placeholder="Navn på påmeldte">
+  <p>
+  <label for="valg">Kommer du med følge?</label>
+  <input type="radio" name="drikke" required><span>Ja</span>
+  <input type="radio" name="drikke" required><span>Nei</span>
+</p>
+<p>Ønsket mat</p>
+<p>
+  <!Bruker select for å få dropdownmeny, legger inn mulige svar. Tar med ''required'' for å vise at man må svare på dette.>
+  <select>
+
+
+  <option value required="Fisk">Pizza</option>
+  <option value="Fisk">Fisk</option>
+  <option value="Fisk">Taco</option>
+  </select>
+</p>
+<!Legger inn submit form her.>
+  <input type="submit" name="" value="Send undersøkelse">
+</form>
+</main>
+<footer>
+
+</footer>
+  </body>
+</html>
