@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="nyhetsside.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>
+       <div id="navbar">
+        <ul>
+          <li><a href="Forside">Forside</a></li>
+          <li><a href="Innenriks">Innenriks</a></li>
+          <li><a href="Utenriks">Utenriks</a></li>
+          <li><a href="Sport">Sport</a></li>
+          <li><a href="Memes">Memes</a></li>
+        </ul>
+      </div>
+        <script>
+          window.onscroll = function() {myFunction()};
+
+          var navbar = document.getElementById("navbar");
+          var sticky = navbar.offsetTop;
+
+          function myFunction() {
+            if (window.pageYOffset >= sticky) {
+              navbar.classList.add("sticky")
+            } else {
+              navbar.classList.remove("sticky");
+            }
+          }
+        </script>
+
+    </header>
+    <main>
+      <div id="hovednyhet">
+        <a href="wow"> <img src="../Bilder/jerna.jpg" alt="" width="80%" height="130%"></a>
+        <a href="wow"> <h1>Jerna ruller ut til kamp!</h1></a>
+      </div>
+<a href="wow2">
+<img src="../Bilder/marijuana.jpg" alt="" height="70%" width="70%">
+</a>
+<a href="wow3">
+<img src="../Bilder/elon.jpg" alt="" height="60%" width="60%">
+</a>
+<a href="wow2">
+<h1>Marijuana har blitt lovlig</h1>
+</a>
+<a href="wow3">
+<h1>Slettet fortnite</h1>
+</a>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+  </html>

@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: red;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  padding: 25px;
+  font-size: 175%;
+  color: white;
+  text-decoration: none;
+  padding-left: 50px;
+}
+li a:hover{
+background-color: darkred;
+}
+a{
+text-decoration: none;
+color: black;
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+main {
+  padding-top: 100px;
+  margin-left: 250px;
+  margin-right: 130px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+#hovednyhet{
+  grid-row: span 2;
+  grid-column: span 2;
+}

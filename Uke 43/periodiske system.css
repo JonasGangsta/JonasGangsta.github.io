@@ -1,0 +1,53 @@
+
+
+main {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  margin: 50px;
+}
+
+.usynlig1 {
+  grid-column: span 16;
+}
+.usynlig2 {
+  grid-column: span 10;
+}
+.usynlig3 {
+  grid-column: span 10;
+}
+.gul {
+  border: 5px solid black;
+  background-color: yellow;
+
+}
+.lyseblå {
+  border: 5px solid black;
+  background-color: lightblue;
+}
+.rød {
+  border: 5px solid black;
+  background-color: red;
+}
+.lysebrun {
+  border: 5px solid black;
+  background-color: #D4C789;
+}
+.brun {
+  border:5px solid black;
+  background-color: #917804;
+}
+.grå {
+  border: 5px solid black;
+  background-color: grey;
+}
+.hud {
+  border: 5px solid black;
+  background-color:#EC9B7D;
+}
+.lilla {
+  border: 5px solid black;
+  background-color: purple;
+}
