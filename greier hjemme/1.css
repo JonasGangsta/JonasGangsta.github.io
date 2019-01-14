@@ -1,0 +1,11 @@
+li{
+  display:inline;
+}
+li a{
+  display:block;
+  color: white;
+  width: 60px;
+  background-color: orange;
+
+
+}
