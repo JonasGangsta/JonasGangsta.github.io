@@ -1,0 +1,20 @@
+
+
+<script>
+
+.limitToFirst(n)	Hent ut de n første
+.limitToLast(n)	Hent ut de n siste
+.startAt(verdi)	Hent ut alle som starter på en bestemt verdi
+.endAt(verdi)	Hent ut alle som slutter på en bestemt verdi
+.equalTo(verdi)	Hent ut alle som er lik en verdi
+
+Eks, for å sortere innenfor ''Type'', og så etter ''Gress''.
+
+function visGrass(){
+  main.innerHTML = ``
+  pokemon
+    .orderByChild("Type1")
+    .equalTo("Grass")
+    .on("child_added",visPokemon);
+}
+</script>
