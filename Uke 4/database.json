@@ -1,0 +1,7 @@
+{
+  "navn": "Jonas Andorsen",
+  "adresse": "Maisen Pedersens Vei 38",
+  "familie": ["Anne Katrine","Steinar","Maria"],
+  "fødselsdato":{"år":2001, "måned":5, "dag":24},
+  "interesser": ["Styrketrening", "Dataspill"],
+}

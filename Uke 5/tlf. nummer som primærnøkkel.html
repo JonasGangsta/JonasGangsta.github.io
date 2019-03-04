@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+<script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBoAWcC0FQdyib-gMuq9qosIevSpKwoUBw",
+    authDomain: "uke-5-ec7c2.firebaseapp.com",
+    databaseURL: "https://uke-5-ec7c2.firebaseio.com",
+    projectId: "uke-5-ec7c2",
+    storageBucket: "",
+    messagingSenderId: "934828681605"
+  };
+  firebase.initializeApp(config);
+  </script>
+<script type="text/javascript">
+  const skjema = document.querySelector("#skjema");
+  const navn = document.querySelector("#navn");
+  const mobilnummer = document.querySelector("#mobilnummer");
+  const mail = document.querySelector("#mail");
+  const secKontakter = document.querySelector("#secKontakter");
+  // Firebase
+  const db = firebase.database();
+  const kontakter = db.ref("kontakter");
+  // Registrere en ny kontakt
+  function registrerKontakt(evt) {
+      evt.preventDefault();
+      const key = inpTelefon.value;
+      const data = {
+          navn: inpNavn.value,
+          epost: inpEpost.value
+      };
+      const kontakt = kontakter.child(key);
+      kontakt.set(data);
+
+      // Nuller ut skjemaet
+      skjema.reset();
+  }
+  // Knytter funksjonen til hendelsen at skjemaet blir sendt inn
+  skjema.addEventListener("submit", registrerKontakt);
+</script>
+<form id="skjema" action="register.html" method="post">
+  <input id="navn" type="text" name="" value="" placeholder="navn">
+  <br>
+  <input id="navn"type="text" name="" value="" placeholder="mail">
+  <br>
+  <input id="mobilnummer" type="number" name="" value="" placeholder="mobilnummer">
+  <button type="submit">Registrer</button>
+</form>
+  <section id="secKontakter">
+  </section>
+  </body>
+</html>

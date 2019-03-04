@@ -27,9 +27,8 @@
       <nav>
         <button onclick="visAlle()">Alle</button>
         <button onclick="visGrass()">Grass</button>
-        <button onclick="visElectric()">Electric</button>
-        <button onclick="vis10()">10 første</button>
         <button onclick="location.href='chat.html'">Chat</button>
+        <button onclick="visElectric()">Electric</button>
 
 
       </nav>
@@ -45,6 +44,7 @@
         const pokemon = db.ref("pokemon"); // Referer til alt som ligger under sko i databasen
         function visPokemon(snapshot){
               //Javascript-funksjon som skriver varene ut på nettsiden i main-elementet
+            console.log(snapshot.val());
             let pokeSnap = snapshot.val();
             main.innerHTML +=`
                 <article class="Pokemon">
@@ -60,25 +60,11 @@
         }
         function visGrass(){
           main.innerHTML = ``
-          pokemon
-            .orderByChild("Type1")
-            .equalTo("Grass")
-            .on("child_added",visPokemon);
+          pokemon.on("child_added" ,visPokemon);
+          pokemon.orderByChild("Name" ,visPokemon);
+          pokemon.limitToFirst(8)
         }
-        function visElectric(){
-          main.innerHTML = ``
-          pokemon
-            .orderByChild("Type1")
-            .equalTo("Electric")
-            .on("child_added",visPokemon);
 
-        }
-        function vis10(){
-          main.innerHTML= ``
-          pokemon
-            .limitToFirst(10)
-            .on("child_added",visPokemon);
-        }
     </script>
 
   </body>

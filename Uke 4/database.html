@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyD2MEZD2eUYrGiWllM87vNnR7iHYqtDplQ",
+        authDomain: "uke-4-9ed00.firebaseapp.com",
+        databaseURL: "https://uke-4-9ed00.firebaseio.com",
+        projectId: "uke-4-9ed00",
+        storageBucket: "uke-4-9ed00.appspot.com",
+        messagingSenderId: "1028349019998"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script>
+      const db = firebase.database();
+      const kontaktliste = db.ref("kontaktliste")
+      kontaktliste.push(
+      {
+        "navn": "Jonas Andorsen",
+        "adresse": "Maisen Pedersens Vei 38",
+        "familie": ["Anne Katrine","Steinar","Maria"],
+        "fødselsdato":{"år":2001, "måned":5, "dag":24},
+        "interesser": ["Styrketrening", "Dataspill"],
+      }
+w
+      )
+      kontaktliste.push(
+      // SKRIV INN JSON OBJEKTET HER
+      )
+    </script>
+  </body>
+</html>
