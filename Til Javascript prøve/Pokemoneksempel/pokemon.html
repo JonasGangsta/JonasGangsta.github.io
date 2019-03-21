@@ -29,9 +29,8 @@
         <button onclick="visGrass()">Grass</button>
         <button onclick="visElectric()">Electric</button>
         <button onclick="vis10()">10 første</button>
+        <button onclick="visAtilE()">A til E</button>
         <button onclick="location.href='chat.html'">Chat</button>
-
-
       </nav>
     </header>
     <main>
@@ -58,10 +57,15 @@
           main.innerHTML = ``
           pokemon.on("child_added",visPokemon);
         }
+       // Funksjon under som legger til alle som har gress som type 1, og så alle som har gress som type 2.
         function visGrass(){
           main.innerHTML = ``
           pokemon
             .orderByChild("Type1")
+            .equalTo("Grass")
+            .on("child_added",visPokemon);
+          pokemon
+            .orderByChild("Type2")
             .equalTo("Grass")
             .on("child_added",visPokemon);
         }
@@ -71,13 +75,20 @@
             .orderByChild("Type1")
             .equalTo("Electric")
             .on("child_added",visPokemon);
-
         }
         function vis10(){
           main.innerHTML= ``
           pokemon
             .limitToFirst(10)
             .on("child_added",visPokemon);
+        }
+        function visAtilE(){
+          main.innerHTML= ``
+          pokemon
+          .orderByChild("Name")
+          .startAt("A")
+          .endAt("F")
+          .on("child_added",visPokemon);
         }
     </script>
 

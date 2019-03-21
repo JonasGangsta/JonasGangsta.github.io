@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="dyreklinikk.css">
+    <meta charset="utf-8">
+    <title>Dyreklinikken</title>
+<script src="https://www.gstatic.com/firebasejs/5.8.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCmt2sKktJjTnCIYiOgMnIpCA1bffXgmaM",
+    authDomain: "dyreklinikk-e1c27.firebaseapp.com",
+    databaseURL: "https://dyreklinikk-e1c27.firebaseio.com",
+    projectId: "dyreklinikk-e1c27",
+    storageBucket: "",
+    messagingSenderId: "522739449023"
+  };
+  firebase.initializeApp(config);
+</script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button onclick="visAlle()">Vis Alle</button>
+        <button onclick="visKatterAÅ()">Vis Katter Alfabetisk</button>
+        <button onclick="viseldstehunder()">Tre eldste hundene</button>
+        <button onclick="visbeigedyr()">Alle beige dyr</button>
+        <button onclick="visMtilT()">Vis dyr fra M til T</button>
+      </nav>
+    </header>
+    <main>
+
+    </main>
+
+    <script>
+      const main = document.querySelector("main");
+      const db = firebase.database();
+      const hunder = db.ref("Dyr/Hunder");
+      const katter = db.ref("Dyr/Katter");
+
+      function genererHTML(snapshot){
+        let dyr = snapshot.val();
+        main.innerHTML +=`
+            <article class="Dyr">
+              <h1>${dyr.Navn}</h1>
+              <img src="${dyr.Bilde}" alt="">
+              <p>Farge: ${dyr.Farge1}, ${dyr.Farge2}</p>
+              <p>Alder: ${dyr.Alder}</p>
+            </article>
+        `
+      }
+
+      function visAlle(){
+        main.innerHTML = "";
+        hunder.on("child_added",genererHTML);
+        katter.on("child_added", genererHTML);
+      }
+
+      visAlle();
+
+      function visKatterAÅ(){
+      main.innerHTML = "";
+      katter
+        .orderByChild("Navn")
+        .startAt("A")
+        .endAt("Å")
+        .on("child_added",genererHTML);
+      }
+      function viseldstehunder(){
+      main.innerHTML = "";
+      hunder
+        .orderByChild("Alder")
+        .limitToLast(3)
+        .on("child_added",genererHTML);
+      }
+      function visbeigedyr(){
+      main.innerHTML = "";
+      hunder
+        .orderByChild("Farge1")
+        .equalTo("Beige")
+        .on("child_added",genererHTML);
+      hunder
+        .orderByChild("Farge2")
+        .equalTo("Beige")
+        .on("child_added",genererHTML);
+      katter
+        .orderByChild("Farge1")
+        .equalTo("Beige")
+        .on("child_added",genererHTML);
+      katter
+        .orderByChild("Farge2")
+        .equalTo("Beige")
+        .on("child_added",genererHTML);
+      }
+      function visMtilT(){
+      main.innerHTML = "";
+      hunder
+        .orderByChild("Navn")
+        .startAt("M")
+        .endAt("U")
+        .on("child_added",genererHTML);
+      katter
+        .orderByChild("Navn")
+        .startAt("M")
+        .endAt("U")
+        .on("child_added",genererHTML);
+      }
+    </script>
+
+  </body>
+</html>
