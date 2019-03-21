@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="hovedside.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li> <a href="hoved.html"><u>Hjemmeside</u></a></li>
+        <li> <a href="PS4.html">PS4</a></li>
+        <li> <a href="XBOX.html">Xbox</a></li>
+        <li> <a href="Switch.html">Nintendo Switch</a></li>
+        <li> <a href="PC.html">PC & Mac</a></li>
+        <li> <a href="Wii.html">Wii</a></li>
+      </ul>
+      <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+      <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyARRj4Ge56Db8XwmTyQuheBIh8XlZlybjk",
+          authDomain: "nettside-m-database-6cf64.firebaseapp.com",
+          databaseURL: "https://nettside-m-database-6cf64.firebaseio.com",
+          projectId: "nettside-m-database-6cf64",
+          storageBucket: "nettside-m-database-6cf64.appspot.com",
+          messagingSenderId: "797171397362"
+        };
+        firebase.initializeApp(config);
+      </script>
+    </header>
+    <main>
+      <script>
+          const main = document.querySelector("main");
+          const db = firebase.database();
+          const PS4Spill = db.ref("PS4Spill");
+          function visPS4Spill(snapshot){
+              let spillSnap = snapshot.val();
+              main.innerHTML +=`
+                  <article class="showcase">
+                    <h1>${spillSnap.Tittel}</h1>
+                    <!-- La inn noe greier her for å definere bildet som skulle legges til hvis det ikke fant noe i databasen, bruker ''Fifa 19 PS¤'' som eksempel under ''PS4'', der vil ''untitled.png'' komme opp istedenfor. -->
+                    <img src="${"../Bilder/" + (spillSnap.Bilde  || "untitled.png")}" alt="">
+                    <p>${spillSnap.Pris}</p>
+                  </article>
+              `
+          }
+          function visAlle(){
+            main.innerHTML = ``
+            PS4Spill.on("child_added",visPS4Spill);
+            }
+        visAlle();
+      </script>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>
