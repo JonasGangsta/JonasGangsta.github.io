@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Spillside</title>
+  <link rel="stylesheet" href="produktside.css">
+
+
+  <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyARRj4Ge56Db8XwmTyQuheBIh8XlZlybjk",
+      authDomain: "nettside-m-database-6cf64.firebaseapp.com",
+      databaseURL: "https://nettside-m-database-6cf64.firebaseio.com",
+      projectId: "nettside-m-database-6cf64",
+      storageBucket: "nettside-m-database-6cf64.appspot.com",
+      messagingSenderId: "797171397362"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+</head>
+  <body>
+    <header>
+      <ul>
+        <li> <a href="hoved.html"><u>Hjemmeside</u></a></li>
+        <li> <a href="PS4.html">PS4</a></li>
+        <li> <a href="XBOX.html">Xbox</a></li>
+        <li> <a href="Switch.html">Nintendo Switch</a></li>
+        <li> <a href="PC.html">PC & Mac</a></li>
+        <li> <a href="Wii.html">Wii</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <script>
+
+
+
+        const main = document.querySelector("main");
+
+        var url_string = window.location.href
+        var url = new URL(url_string);
+        var id = url.searchParams.get("id");
+        console.log(id);
+
+      const db = firebase.database();
+      const PS4Spill = db.ref("PS4Spill/" + id)
+
+      function visSpill(snapshot){
+          console.log(snapshot.val());
+          let spillSnap = snapshot.val();
+          let key = snapshot.key;
+
+
+          main.innerHTML +=`
+              <article class="Spillside">
+                <h1>${spillSnap.Tittel}</h1>
+                <img src="${"../Bilder/" + (spillSnap.Bilde  || "untitled.png")}" alt="">
+                <p>${spillSnap.Pris}</p>
+                <p>${spillSnap.Produktbeskrivelse}</p>
+
+              </article>
+          `
+      }
+      PS4Spill.on("value",visSpill)
+      </script>
+    </main>
+
+
+
+  </body>
+</html>

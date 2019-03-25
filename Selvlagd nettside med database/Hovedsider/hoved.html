@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" href="hovedside.css">
     <meta charset="utf-8">
-    <title></title>
+    <title>Hjemmeside</title>
   </head>
   <body>
     <header>
@@ -45,12 +45,15 @@
               const PS4Spill = db.ref("PS4Spill");
               function visPS4Spill(snapshot){
                   let spillSnap = snapshot.val();
+                  let key = snapshot.key;
                   main.innerHTML +=`
                     <div class="box">
+                    <a href="produktside.html?id=${key}">
                       <article class="showcase">
                         <h1>${spillSnap.Tittel}</h1>
                         <!-- La inn noe greier her for å definere bildet som skulle legges til hvis det ikke fant noe i databasen, bruker ''Fifa 19 PS¤'' som eksempel under ''PS4'', der vil ''untitled.png'' komme opp istedenfor. -->
                         <img src="${"../Bilder/" + (spillSnap.Bilde  || "untitled.png")}" alt="">
+                      </a>
                         <p>${spillSnap.Pris}</p>
                       </article>
                     </div>

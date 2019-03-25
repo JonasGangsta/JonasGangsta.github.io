@@ -68,7 +68,7 @@ article h1 {
 
 @media (max-width: 1200px) {
   main {
-        margin-left: 15%;
+        margin-left: 0%;
         margin-right: 15%;
         background-color: white;
         height: 100%;
@@ -88,10 +88,10 @@ article h1 {
 }
 @media (max-width: 900px) {
   li>a {
-    width: 100%;
+
   }
   main {
-     margin-left: 15%;
+     margin-left: 0%;
      margin-right: 15%;
      background-color: white;
      height: 100%;
