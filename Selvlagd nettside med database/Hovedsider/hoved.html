@@ -29,28 +29,75 @@
         firebase.initializeApp(config);
       </script>
     </header>
-    <main>
-      <script>
-          const main = document.querySelector("main");
-          const db = firebase.database();
-          const PS4Spill = db.ref("PS4Spill");
-          function visPS4Spill(snapshot){
-              let spillSnap = snapshot.val();
-              main.innerHTML +=`
-                  <article class="showcase">
-                    <h1>${spillSnap.Tittel}</h1>
-                    <!-- La inn noe greier her for å definere bildet som skulle legges til hvis det ikke fant noe i databasen, bruker ''Fifa 19 PS¤'' som eksempel under ''PS4'', der vil ''untitled.png'' komme opp istedenfor. -->
-                    <img src="${"../Bilder/" + (spillSnap.Bilde  || "untitled.png")}" alt="">
-                    <p>${spillSnap.Pris}</p>
-                  </article>
-              `
-          }
-          function visAlle(){
-            main.innerHTML = ``
-            PS4Spill.on("child_added",visPS4Spill);
+    <div class="grid">
+      <div class="side">
+        <button onclick="visAlfabetisk(); topFunction()">Vis alfabetisk</button>
+        <button onclick="visFerdig(); topFunction()">Ferdige Produkter</button>
+        <button onclick="visLavest(); topFunction()">Lavest til høyest pris</button>
+        <button onclick="visAtilF(); topFunction()">Vis A til F</button>
+        <button onclick="visGtilZ(); topFunction()">Vis G til Z</button>
+      </div>
+      <div class="hoved">
+      <main>
+          <script>
+              const main = document.querySelector("main");
+              const db = firebase.database();
+              const PS4Spill = db.ref("PS4Spill");
+              function visPS4Spill(snapshot){
+                  let spillSnap = snapshot.val();
+                  main.innerHTML +=`
+                    <div class="box">
+                      <article class="showcase">
+                        <h1>${spillSnap.Tittel}</h1>
+                        <!-- La inn noe greier her for å definere bildet som skulle legges til hvis det ikke fant noe i databasen, bruker ''Fifa 19 PS¤'' som eksempel under ''PS4'', der vil ''untitled.png'' komme opp istedenfor. -->
+                        <img src="${"../Bilder/" + (spillSnap.Bilde  || "untitled.png")}" alt="">
+                        <p>${spillSnap.Pris}</p>
+                      </article>
+                    </div>
+                  `
+              }
+              function visAlfabetisk(){
+                main.innerHTML = ``
+                PS4Spill.on("child_added",visPS4Spill);
+                }
+                visAlfabetisk();
+              function visFerdig() {
+                main.innerHTML = ``
+                PS4Spill
+                  .orderByChild("Ferdig")
+                  .equalTo(1)
+                  .on("child_added",visPS4Spill);
+              }
+              function visLavest() {
+                main.innerHTML = ``
+                PS4Spill
+                  .orderByChild("Pris")
+                  .on("child_added",visPS4Spill);
+              }
+              function visAtilF() {
+                main.innerHTML = ``
+                PS4Spill
+                  .orderByChild("Tittel")
+                  .startAt("A")
+                  .endAt("G")
+                  .on("child_added",visPS4Spill);
+              }
+              function visGtilZ() {
+                main.innerHTML = ``
+                PS4Spill
+                  .orderByChild("Tittel")
+                  .startAt("G")
+                  .endAt("Z")
+                  .on("child_added",visPS4Spill);
             }
-        visAlle();
-      </script>
+              function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+
+              }
+          </script>
+        </div>
+    </div>
     </main>
     <footer>
 
