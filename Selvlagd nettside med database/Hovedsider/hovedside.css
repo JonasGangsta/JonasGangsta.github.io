@@ -68,7 +68,11 @@ article h1 {
 
 @media (max-width: 1200px) {
   main {
+<<<<<<< HEAD
         margin-left: 15%;
+=======
+        margin-left: 0%;
+>>>>>>> bc65267591d39fa99c0f266c608b7011b0c33a95
         margin-right: 15%;
         background-color: white;
         height: 100%;
@@ -88,10 +92,17 @@ article h1 {
 }
 @media (max-width: 900px) {
   li>a {
+<<<<<<< HEAD
     width: 100%;
   }
   main {
      margin-left: 15%;
+=======
+
+  }
+  main {
+     margin-left: 0%;
+>>>>>>> bc65267591d39fa99c0f266c608b7011b0c33a95
      margin-right: 15%;
      background-color: white;
      height: 100%;

@@ -6,20 +6,19 @@
     <link rel="stylesheet" href="pokemon.css">
 
 
-
-  <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
-  <script>
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyB-l6QVxexZSbYusLE9HS9vALBcTviLzgg",
-      authDomain: "uke-7-pokemon.firebaseapp.com",
-      databaseURL: "https://uke-7-pokemon.firebaseio.com",
-      projectId: "uke-7-pokemon",
-      storageBucket: "uke-7-pokemon.appspot.com",
-      messagingSenderId: "1007355423556"
-    };
-    firebase.initializeApp(config);
-  </script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCFhmDveqpzRvevF6EyrLOh0NbACDQ3C_4",
+        authDomain: "pokemon-uke-8.firebaseapp.com",
+        databaseURL: "https://pokemon-uke-8.firebaseio.com",
+        projectId: "pokemon-uke-8",
+        storageBucket: "",
+        messagingSenderId: "974522538356"
+      };
+      firebase.initializeApp(config);
+    </script>
 
   </head>
 
@@ -28,10 +27,9 @@
       <nav>
         <button onclick="visAlle()">Alle</button>
         <button onclick="visGrass()">Grass</button>
-        <button onclick="visElectric()">Electric</button>
-        <button onclick="vis10()">10 første</button>
-        <button onclick="visAtilE()">A til E</button>
         <button onclick="location.href='chat.html'">Chat</button>
+
+
       </nav>
     </header>
     <main>
@@ -45,12 +43,19 @@
         const pokemon = db.ref("pokemon"); // Referer til alt som ligger under sko i databasen
         function visPokemon(snapshot){
               //Javascript-funksjon som skriver varene ut på nettsiden i main-elementet
+            console.log(snapshot.val());
             let pokeSnap = snapshot.val();
+            let key = snapshot.key;
+
+
+
             main.innerHTML +=`
                 <article class="Pokemon">
+                  <a href="pokestats.html?id=${key}">
                   <h1>${pokeSnap.Name}</h1>
                   <img src="${pokeSnap.ImageURL}" alt="">
                   <p>${pokeSnap.Type1} - ${pokeSnap.Type2}</p>
+                  </a>
                 </article>
             `
         }
@@ -58,38 +63,12 @@
           main.innerHTML = ``
           pokemon.on("child_added",visPokemon);
         }
-       // Funksjon under som legger til alle som har gress som type 1, og så alle som har gress som type 2.
         function visGrass(){
           main.innerHTML = ``
           pokemon
             .orderByChild("Type1")
             .equalTo("Grass")
             .on("child_added",visPokemon);
-          pokemon
-            .orderByChild("Type2")
-            .equalTo("Grass")
-            .on("child_added",visPokemon);
-        }
-        function visElectric(){
-          main.innerHTML = ``
-          pokemon
-            .orderByChild("Type1")
-            .equalTo("Electric")
-            .on("child_added",visPokemon);
-        }
-        function vis10(){
-          main.innerHTML= ``
-          pokemon
-            .limitToFirst(10)
-            .on("child_added",visPokemon);
-        }
-        function visAtilE(){
-          main.innerHTML= ``
-          pokemon
-          .orderByChild("Name")
-          .startAt("A")
-          .endAt("F")
-          .on("child_added",visPokemon);
         }
     </script>
 

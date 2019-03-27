@@ -4,19 +4,19 @@
     <link rel="stylesheet" href="dyreklinikk.css">
     <meta charset="utf-8">
     <title>Dyreklinikken</title>
-<script src="https://www.gstatic.com/firebasejs/5.8.5/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyCmt2sKktJjTnCIYiOgMnIpCA1bffXgmaM",
-    authDomain: "dyreklinikk-e1c27.firebaseapp.com",
-    databaseURL: "https://dyreklinikk-e1c27.firebaseio.com",
-    projectId: "dyreklinikk-e1c27",
-    storageBucket: "",
-    messagingSenderId: "522739449023"
-  };
-  firebase.initializeApp(config);
-</script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.5/firebase.js"></script>
+          <script>
+            // Initialize Firebase
+            var config = {
+              apiKey: "AIzaSyDeQkAkyP4jIcinOHltcBy6h5Q-ZPO8_s0",
+              authDomain: "proveoving2.firebaseapp.com",
+              databaseURL: "https://proveoving2.firebaseio.com",
+              projectId: "proveoving2",
+              storageBucket: "proveoving2.appspot.com",
+              messagingSenderId: "960096242480"
+            };
+            firebase.initializeApp(config);
+          </script>
   </head>
   <body>
     <header>
@@ -40,12 +40,14 @@
 
       function genererHTML(snapshot){
         let dyr = snapshot.val();
+        let key = snapshot.key;
         main.innerHTML +=`
             <article class="Dyr">
               <h1>${dyr.Navn}</h1>
               <img src="${dyr.Bilde}" alt="">
               <p>Farge: ${dyr.Farge1}, ${dyr.Farge2}</p>
               <p>Alder: ${dyr.Alder}</p>
+              <a href="dyredetaljer.html?id=${key}"> Les mer</a>
             </article>
         `
       }
