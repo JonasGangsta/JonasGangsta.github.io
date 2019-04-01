@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" href="hovedside.css">
     <meta charset="utf-8">
-    <title>Hjemmeside</title>
+    <title></title>
   </head>
   <body>
     <header>
@@ -53,7 +53,7 @@
                         <h1>${spillSnap.Tittel}</h1>
                         <!-- La inn noe greier her for å definere bildet som skulle legges til hvis det ikke fant noe i databasen, bruker ''Fifa 19 PS¤'' som eksempel under ''PS4'', der vil ''untitled.png'' komme opp istedenfor. -->
                         <img src="${"../Bilder/" + (spillSnap.Bilde  || "untitled.png")}" alt="">
-                      </a>
+                        </a>
                         <p>${spillSnap.Pris}</p>
                       </article>
                     </div>
@@ -61,7 +61,12 @@
               }
               function visAlfabetisk(){
                 main.innerHTML = ``
-                PS4Spill.on("child_added",visPS4Spill);
+                PS4Spill
+                .orderByChild("Tittel")
+                .startAt("A")
+                .endAt("Z")
+                .on("child_added",visPS4Spill);
+
                 }
                 visAlfabetisk();
               function visFerdig() {

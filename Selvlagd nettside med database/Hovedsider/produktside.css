@@ -17,8 +17,8 @@ li>a {
   float: left;
   text-decoration: none;
   color: black;
-  background-color: #d37f1f;
-  font-size: 120%;
+  background-color: orange;
+  font-size: 1.5vw;
   font-family: sans-serif;
   width: 16.66667%;
   padding-top: 2%;
@@ -26,13 +26,12 @@ li>a {
   text-align: center;
   opacity: 0.8;
 }
-
 body {
   margin: 0;
   background-color: lightgrey;
 }
 li>a:hover {
-  background-color: grey;
+  background-color: #e89004;
 }
 main {
   margin-left: 15%;
@@ -40,7 +39,52 @@ main {
   background-color: white;
   height: 100%;
   margin-top: 1%;
-  padding-left: 7%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
+}
+.maingrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 13vw 1fr;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1%;
+  background-color: lightgrey;
+}
+h1 {
+  font-size: 4vw;
+  margin-top: 7%;
+  padding-left: 2%;
+}
+.beskrivelse {
+  padding-left: 2%;
+  width: 90%;
+  font-size: 1.5vw;
+  margin-top: 0;
+}
+.video {
+  margin-top: 4%;
+  height: 17.5vw;
+  width: 90%;
+}
+.prisgrid {
+  margin-top: 20%;
+  padding-left: 10%;
+  font-size: 3vw;
+}
+.kjøp {
+  border: solid black;
+  margin-right: 40%;
+  padding-left: 10%;
+  background-color: orange;
+  opacity: 0.8;
+}
+.kjøp:hover{
+  opacity: 1;
+}
+.prisgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }

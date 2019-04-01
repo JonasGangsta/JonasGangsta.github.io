@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Spillside</title>
-  <link rel="stylesheet" href="produktside.css">
+  <link rel="stylesheet" href="ordrebekreftelse.css">
 
 
   <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
@@ -56,26 +56,18 @@
 
 
           main.innerHTML +=`
-              <article class="Spillside">
-                <img src="${"../Bilder/" + (spillSnap.Banner  || "untitled.png")}" alt="">
-                <div class="maingrid">
-                <h1>${spillSnap.Tittel}</h1>
-                <iframe class="video" src=${spillSnap.Video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="beskrivelse">${spillSnap.Produktbeskrivelse}</p>
-                <div class="prisgrid">
-                  <p class="pris">${spillSnap.Pris}</p>
-                  <a href="kjøpsside.html?id=${key}"><p onclick="if (confirm('Er du sikker på at du vil kjøpe denne varen?')) commentDelete(1); return false" class="kjøp">Kjøp</p></a>
-                </div>
-                </div>
-              </article>
+            <p>Gratulerer! Du har nå kjøpt:
+            <b>${spillSnap.Tittel}</b></p>
+            <p>Vi takker for handelen. Hvis du har noen spørsmål, vennligst kontakt oss på mail@mail.com</p>
           `
           if (id.charAt(0)=== "P") {
            PS4Spill.on("value", visSpill)
          } else if(id.charAt(0) === "X") {
            XboxSpill.on("value", visSpill)
           }
-      }
 
+      }
+      
       PS4Spill.on("value",visSpill)
       XboxSpill.on("value",visSpill)
       </script>
