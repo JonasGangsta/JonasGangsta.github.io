@@ -4,9 +4,57 @@
       "Banner" : 1,
       "Bilde" : "ACO.jpg",
       "Pris" : "499.-",
-      "Produktbeskrivelse" : 1,
+      "Produktbeskrivelse" : "Kommer snart",
       "Tittel" : "Assassins Creed Oddesey PS4",
-      "Video" : 1
+      "Video" : "ikkeferdig.jpg"
+    },
+    "ps410" : {
+      "Banner" : 1,
+      "Bilde" : "SOTTR.jpg",
+      "Pris" : "199.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Shadow Of The Tomb Raider PS4",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "ps411" : {
+      "Banner" : 1,
+      "Bilde" : "SoulcaliburVI.jpg",
+      "Pris" : "199.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Soulcalibur VI PS4",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "ps412" : {
+      "Banner" : 1,
+      "Bilde" : "Spiderman.jpg",
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Spiderman PS4",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "ps413" : {
+      "Banner" : 1,
+      "Bilde" : "Spyro.jpg",
+      "Pris" : "499.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Spyro PS4",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "ps414" : {
+      "Banner" : 1,
+      "Bilde" : "VC4.jpg",
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Valkyria Chronicles 4 PS4",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "ps415" : {
+      "Banner" : 1,
+      "Bilde" : "Yakuza2.jpg",
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Yakuza 2 PS4",
+      "Video" : "ikkeferdig.jpg"
     },
     "ps42" : {
       "Banner" : "BF5banner.jpg",
@@ -21,17 +69,17 @@
       "Banner" : 1,
       "Bilde" : "BO4.jpg",
       "Pris" : "299.-",
-      "Produktbeskrivelse" : 1,
+      "Produktbeskrivelse" : "Kommer snart",
       "Tittel" : "Black Ops 4 PS4",
-      "Video" : 1
+      "Video" : "ikkeferdig.jpg"
     },
     "ps44" : {
       "Banner" : 1,
       "Bilde" : "DQXI.jpg",
       "Pris" : "599.-",
-      "Produktbeskrivelse" : 1,
+      "Produktbeskrivelse" : "Kommer snart",
       "Tittel" : "Dragon Quest XI PS4",
-      "Video" : 1
+      "Video" : "ikkeferdig.jpg"
     },
     "ps45" : {
       "Banner" : "Fallout76Banner.jpg",
@@ -46,25 +94,25 @@
       "Banner" : 1,
       "Bilde" : "",
       "Pris" : "399.-",
-      "Produktbeskrivelse" : 1,
+      "Produktbeskrivelse" : "Kommer snart",
       "Tittel" : "Fifa 19 PS4",
-      "Video" : 1
+      "Video" : "ikkeferdig.jpg"
     },
     "ps47" : {
       "Banner" : 1,
       "Bilde" : "Hitman2.jpg",
       "Pris" : "199.-",
-      "Produktbeskrivelse" : 1,
+      "Produktbeskrivelse" : "Kommer snart",
       "Tittel" : "Hitman 2 PS4",
-      "Video" : 1
+      "Video" : "ikkeferdig.jpg"
     },
     "ps48" : {
       "Banner" : 1,
       "Bilde" : "NHL19.jpg",
       "Pris" : "299.-",
-      "Produktbeskrivelse" : 1,
+      "Produktbeskrivelse" : "Kommer snart",
       "Tittel" : "NHL 19 PS4",
-      "Video" : 1
+      "Video" : "ikkeferdig.jpg"
     },
     "ps49" : {
       "Banner" : "rdr2banner.jpg",
@@ -74,54 +122,256 @@
       "Produktbeskrivelse" : "America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.",
       "Tittel" : "Red Dead Redemption 2 PS4",
       "Video" : "https://www.youtube.com/embed/Dw_oH5oiUSE"
+    }
+  },
+  "SwitchSpill" : {
+    "ACO" : {
+      "Banner" : 1,
+      "Bilde" : "ACO.jpg",
+      "Pris" : "499.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Assassins Creed Oddesey Switch",
+      "Video" : "ikkeferdig.jpg"
     },
-    "ps410" : {
+    "BF5" : {
+      "Banner" : "BF5banner.jpg",
+      "Bilde" : "BF5.jpg",
+      "Ferdig" : 1,
+      "Pris" : "499.-",
+      "Produktbeskrivelse" : "Enter mankind’s greatest conflict with Battlefield™ V as the series goes back to its roots in a never-before-seen portrayal of World War 2. Take on all-out multiplayer across the world or witness human drama set against global combat in single player War Stories.",
+      "Tittel" : "Battlefield 5 Switch",
+      "Video" : "https://www.youtube.com/embed/fb1MR85XFOc"
+    },
+    "BO4" : {
+      "Banner" : 1,
+      "Bilde" : "BO4.jpg",
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Black Ops 4 Switch",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "DragonQuestXI" : {
+      "Banner" : 1,
+      "Bilde" : "DQXI.jpg",
+      "Pris" : "599.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Dragon Quest XI Switch",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "Fallout76" : {
+      "Banner" : "Fallout76Banner.jpg",
+      "Bilde" : "Fallout76.jpg",
+      "Ferdig" : 1,
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Bethesda Game Studios, the award-winning creators of Skyrim and Fallout 4, welcome you to Fallout 76, the online prequel where every surviving human is a real person. Work together, or not, to survive. Under the threat of nuclear annihilation, you’ll experience the largest, most dynamic world ever created in the legendary Fallout universe.",
+      "Tittel" : "Fallout 76 Switch",
+      "Video" : "https://www.youtube.com/embed/M9FGaan35s0"
+    },
+    "Fifa19" : {
+      "Banner" : 1,
+      "Bilde" : "",
+      "Pris" : "399.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Fifa 19 Switch",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "Hitman2" : {
+      "Banner" : 1,
+      "Bilde" : "Hitman2.jpg",
+      "Pris" : "199.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Hitman 2 Switch",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "NHL19" : {
+      "Banner" : 1,
+      "Bilde" : "NHL19.jpg",
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "NHL 19 Switch",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "RDR2" : {
+      "Banner" : "rdr2banner.jpg",
+      "Bilde" : "rdr2.jpg",
+      "Ferdig" : 1,
+      "Pris" : "399.-",
+      "Produktbeskrivelse" : "America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.",
+      "Tittel" : "Red Dead Redemption 2 Switch",
+      "Video" : "https://www.youtube.com/embed/Dw_oH5oiUSE"
+    },
+    "ShadowOfTheTombRaider" : {
       "Banner" : 1,
       "Bilde" : "SOTTR.jpg",
       "Pris" : "199.-",
-      "Produktbeskrivelse" : 1,
-      "Tittel" : "Shadow Of The Tomb Raider PS4",
-      "Video" : 1
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Shadow Of The Tomb Raider Switch",
+      "Video" : "ikkeferdig.jpg"
     },
-    "ps411" : {
+    "SoulcaliburVI" : {
       "Banner" : 1,
       "Bilde" : "SoulcaliburVI.jpg",
       "Pris" : "199.-",
-      "Produktbeskrivelse" : 1,
-      "Tittel" : "Soulcalibur VI PS4",
-      "Video" : 1
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Soulcalibur VI Switch",
+      "Video" : "ikkeferdig.jpg"
     },
-    "ps412" : {
+    "Spiderman" : {
       "Banner" : 1,
       "Bilde" : "Spiderman.jpg",
       "Pris" : "299.-",
-      "Produktbeskrivelse" : 1,
-      "Tittel" : "Spiderman PS4",
-      "Video" : 1
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Spiderman Switch",
+      "Video" : "ikkeferdig.jpg"
     },
-    "ps413" : {
+    "Spyro" : {
       "Banner" : 1,
       "Bilde" : "Spyro.jpg",
       "Pris" : "499.-",
-      "Produktbeskrivelse" : 1,
-      "Tittel" : "Spyro PS4",
-      "Video" : 1
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Spyro Switch",
+      "Video" : "ikkeferdig.jpg"
     },
-    "ps414" : {
+    "Valkyria4" : {
       "Banner" : 1,
       "Bilde" : "VC4.jpg",
       "Pris" : "299.-",
-      "Produktbeskrivelse" : 1,
-      "Tittel" : "Valkyria Chronicles 4 PS4",
-      "Video" : 1
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Valkyria Chronicles 4 Switch",
+      "Video" : "ikkeferdig.jpg"
     },
-    "ps415" : {
+    "Yakuza2" : {
       "Banner" : 1,
       "Bilde" : "Yakuza2.jpg",
       "Pris" : "299.-",
-      "Produktbeskrivelse" : 1,
-      "Tittel" : "Yakuza 2 PS4",
-      "Video" : 1
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Yakuza 2 Switch",
+      "Video" : "ikkeferdig.jpg"
+    }
+  },
+  "WiiSpill" : {
+    "ACO" : {
+      "Banner" : 1,
+      "Bilde" : "ACO.jpg",
+      "Pris" : "499.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Assassins Creed Oddesey Wii",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "BF5" : {
+      "Banner" : "BF5banner.jpg",
+      "Bilde" : "BF5.jpg",
+      "Ferdig" : 1,
+      "Pris" : "499.-",
+      "Produktbeskrivelse" : "Enter mankind’s greatest conflict with Battlefield™ V as the series goes back to its roots in a never-before-seen portrayal of World War 2. Take on all-out multiplayer across the world or witness human drama set against global combat in single player War Stories.",
+      "Tittel" : "Battlefield 5 Wii",
+      "Video" : "https://www.youtube.com/embed/fb1MR85XFOc"
+    },
+    "BO4" : {
+      "Banner" : 1,
+      "Bilde" : "BO4.jpg",
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Black Ops 4 Wii",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "DragonQuestXI" : {
+      "Banner" : 1,
+      "Bilde" : "DQXI.jpg",
+      "Pris" : "599.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Dragon Quest XI Wii",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "Fallout76" : {
+      "Banner" : "Fallout76Banner.jpg",
+      "Bilde" : "Fallout76.jpg",
+      "Ferdig" : 1,
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Bethesda Game Studios, the award-winning creators of Skyrim and Fallout 4, welcome you to Fallout 76, the online prequel where every surviving human is a real person. Work together, or not, to survive. Under the threat of nuclear annihilation, you’ll experience the largest, most dynamic world ever created in the legendary Fallout universe.",
+      "Tittel" : "Fallout 76 Wii",
+      "Video" : "https://www.youtube.com/embed/M9FGaan35s0"
+    },
+    "Fifa19" : {
+      "Banner" : 1,
+      "Bilde" : "",
+      "Pris" : "399.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Fifa 19 Wii",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "Hitman2" : {
+      "Banner" : 1,
+      "Bilde" : "Hitman2.jpg",
+      "Pris" : "199.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Hitman 2 Wii",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "NHL19" : {
+      "Banner" : 1,
+      "Bilde" : "NHL19.jpg",
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "NHL 19 Wii",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "RDR2" : {
+      "Banner" : "rdr2banner.jpg",
+      "Bilde" : "rdr2.jpg",
+      "Ferdig" : 1,
+      "Pris" : "399.-",
+      "Produktbeskrivelse" : "America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.",
+      "Tittel" : "Red Dead Redemption 2 Wii",
+      "Video" : "https://www.youtube.com/embed/Dw_oH5oiUSE"
+    },
+    "ShadowOfTheTombRaider" : {
+      "Banner" : 1,
+      "Bilde" : "SOTTR.jpg",
+      "Pris" : "199.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Shadow Of The Tomb Raider Wii",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "SoulcaliburVI" : {
+      "Banner" : 1,
+      "Bilde" : "SoulcaliburVI.jpg",
+      "Pris" : "199.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Soulcalibur VI Wii",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "Spiderman" : {
+      "Banner" : 1,
+      "Bilde" : "Spiderman.jpg",
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Spiderman Wii",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "Spyro" : {
+      "Banner" : 1,
+      "Bilde" : "Spyro.jpg",
+      "Pris" : "499.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Spyro Wii",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "Valkyria4" : {
+      "Banner" : 1,
+      "Bilde" : "VC4.jpg",
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Valkyria Chronicles 4 Wii",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "Yakuza2" : {
+      "Banner" : 1,
+      "Bilde" : "Yakuza2.jpg",
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Yakuza 2 Wii",
+      "Video" : "ikkeferdig.jpg"
     }
   },
   "XboxSpill" : {
@@ -129,9 +379,57 @@
       "Banner" : 1,
       "Bilde" : "ACO.jpg",
       "Pris" : "499.-",
-      "Produktbeskrivelse" : 1,
+      "Produktbeskrivelse" : "Kommer snart",
       "Tittel" : "Assassins Creed Oddesey Xbox",
-      "Video" : 1
+      "Video" : "ikkeferdig.jpg"
+    },
+    "xb10" : {
+      "Banner" : 1,
+      "Bilde" : "SOTTR.jpg",
+      "Pris" : "199.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Shadow Of The Tomb Raider Xbox",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "xb11" : {
+      "Banner" : 1,
+      "Bilde" : "SoulcaliburVI.jpg",
+      "Pris" : "199.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Soulcalibur VI Xbox",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "xb12" : {
+      "Banner" : 1,
+      "Bilde" : "Spiderman.jpg",
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Spiderman Xbox",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "xb13" : {
+      "Banner" : 1,
+      "Bilde" : "Spyro.jpg",
+      "Pris" : "499.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Spyro Xbox",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "xb14" : {
+      "Banner" : 1,
+      "Bilde" : "VC4.jpg",
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Valkyria Chronicles 4 Xbox",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "xb15" : {
+      "Banner" : 1,
+      "Bilde" : "Yakuza2.jpg",
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Yakuza 2 Xbox",
+      "Video" : "ikkeferdig.jpg"
     },
     "xb2" : {
       "Banner" : "BF5banner.jpg",
@@ -146,17 +444,17 @@
       "Banner" : 1,
       "Bilde" : "BO4.jpg",
       "Pris" : "299.-",
-      "Produktbeskrivelse" : 1,
+      "Produktbeskrivelse" : "Kommer snart",
       "Tittel" : "Black Ops 4 Xbox",
-      "Video" : 1
+      "Video" : "ikkeferdig.jpg"
     },
     "xb4" : {
       "Banner" : 1,
       "Bilde" : "DQXI.jpg",
       "Pris" : "599.-",
-      "Produktbeskrivelse" : 1,
+      "Produktbeskrivelse" : "Kommer snart",
       "Tittel" : "Dragon Quest XI Xbox",
-      "Video" : 1
+      "Video" : "ikkeferdig.jpg"
     },
     "xb5" : {
       "Banner" : "Fallout76Banner.jpg",
@@ -171,25 +469,25 @@
       "Banner" : 1,
       "Bilde" : "",
       "Pris" : "399.-",
-      "Produktbeskrivelse" : 1,
+      "Produktbeskrivelse" : "Kommer snart",
       "Tittel" : "Fifa 19 Xbox",
-      "Video" : 1
+      "Video" : "ikkeferdig.jpg"
     },
     "xb7" : {
       "Banner" : 1,
       "Bilde" : "Hitman2.jpg",
       "Pris" : "199.-",
-      "Produktbeskrivelse" : 1,
+      "Produktbeskrivelse" : "Kommer snart",
       "Tittel" : "Hitman 2 Xbox",
-      "Video" : 1
+      "Video" : "ikkeferdig.jpg"
     },
     "xb8" : {
       "Banner" : 1,
       "Bilde" : "NHL19.jpg",
       "Pris" : "299.-",
-      "Produktbeskrivelse" : 1,
+      "Produktbeskrivelse" : "Kommer snart",
       "Tittel" : "NHL 19 Xbox",
-      "Video" : 1
+      "Video" : "ikkeferdig.jpg"
     },
     "xb9" : {
       "Banner" : "rdr2banner.jpg",
@@ -199,429 +497,131 @@
       "Produktbeskrivelse" : "America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.",
       "Tittel" : "Red Dead Redemption 2 Xbox",
       "Video" : "https://www.youtube.com/embed/Dw_oH5oiUSE"
-    },
-    "xb10" : {
-      "Banner" : 1,
-      "Bilde" : "SOTTR.jpg",
-      "Pris" : "199.-",
-      "Produktbeskrivelse" : 1,
-      "Tittel" : "Shadow Of The Tomb Raider Xbox",
-      "Video" : 1
-    },
-    "xb11" : {
-      "Banner" : 1,
-      "Bilde" : "SoulcaliburVI.jpg",
-      "Pris" : "199.-",
-      "Produktbeskrivelse" : 1,
-      "Tittel" : "Soulcalibur VI Xbox",
-      "Video" : 1
-    },
-    "xb12" : {
-      "Banner" : 1,
-      "Bilde" : "Spiderman.jpg",
-      "Pris" : "299.-",
-      "Produktbeskrivelse" : 1,
-      "Tittel" : "Spiderman Xbox",
-      "Video" : 1
-    },
-    "xb13" : {
-      "Banner" : 1,
-      "Bilde" : "Spyro.jpg",
-      "Pris" : "499.-",
-      "Produktbeskrivelse" : 1,
-      "Tittel" : "Spyro Xbox",
-      "Video" : 1
-    },
-    "xb14" : {
-      "Banner" : 1,
-      "Bilde" : "VC4.jpg",
-      "Pris" : "299.-",
-      "Produktbeskrivelse" : 1,
-      "Tittel" : "Valkyria Chronicles 4 Xbox",
-      "Video" : 1
-    },
-    "xb15" : {
-      "Banner" : 1,
-      "Bilde" : "Yakuza2.jpg",
-      "Pris" : "299.-",
-      "Produktbeskrivelse" : 1,
-      "Tittel" : "Yakuza 2 Xbox",
-      "Video" : 1
-    }
-  },
-  "SwitchSpill" : {
-    "ACO" : {
-    "Banner" : 1,
-    "Bilde" : "ACO.jpg",
-    "Pris" : "499.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Assassins Creed Oddesey Switch",
-    "Video" : 1
-  },
-  "BF5" : {
-    "Banner" : "BF5banner.jpg",
-    "Bilde" : "BF5.jpg",
-    "Ferdig" : 1,
-    "Pris" : "499.-",
-    "Produktbeskrivelse" : "Enter mankind’s greatest conflict with Battlefield™ V as the series goes back to its roots in a never-before-seen portrayal of World War 2. Take on all-out multiplayer across the world or witness human drama set against global combat in single player War Stories.",
-    "Tittel" : "Battlefield 5 Switch",
-    "Video" : "https://www.youtube.com/embed/fb1MR85XFOc"
-  },
-  "BO4" : {
-    "Banner" : 1,
-    "Bilde" : "BO4.jpg",
-    "Pris" : "299.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Black Ops 4 Switch",
-    "Video" : 1
-  },
-  "DragonQuestXI" : {
-    "Banner" : 1,
-    "Bilde" : "DQXI.jpg",
-    "Pris" : "599.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Dragon Quest XI Switch",
-    "Video" : 1
-  },
-  "Fallout76" : {
-    "Banner" : "Fallout76Banner.jpg",
-    "Bilde" : "Fallout76.jpg",
-    "Ferdig" : 1,
-    "Pris" : "299.-",
-    "Produktbeskrivelse" : "Bethesda Game Studios, the award-winning creators of Skyrim and Fallout 4, welcome you to Fallout 76, the online prequel where every surviving human is a real person. Work together, or not, to survive. Under the threat of nuclear annihilation, you’ll experience the largest, most dynamic world ever created in the legendary Fallout universe.",
-    "Tittel" : "Fallout 76 Switch",
-    "Video" : "https://www.youtube.com/embed/M9FGaan35s0"
-  },
-  "Fifa19" : {
-    "Banner" : 1,
-    "Bilde" : "",
-    "Pris" : "399.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Fifa 19 Switch",
-    "Video" : 1
-  },
-  "Hitman2" : {
-    "Banner" : 1,
-    "Bilde" : "Hitman2.jpg",
-    "Pris" : "199.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Hitman 2 Switch",
-    "Video" : 1
-  },
-  "NHL19" : {
-    "Banner" : 1,
-    "Bilde" : "NHL19.jpg",
-    "Pris" : "299.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "NHL 19 Switch",
-    "Video" : 1
-  },
-  "RDR2" : {
-    "Banner" : "rdr2banner.jpg",
-    "Bilde" : "rdr2.jpg",
-    "Ferdig" : 1,
-    "Pris" : "399.-",
-    "Produktbeskrivelse" : "America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.",
-    "Tittel" : "Red Dead Redemption 2 Switch",
-    "Video" : "https://www.youtube.com/embed/Dw_oH5oiUSE"
-  },
-  "ShadowOfTheTombRaider" : {
-    "Banner" : 1,
-    "Bilde" : "SOTTR.jpg",
-    "Pris" : "199.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Shadow Of The Tomb Raider Switch",
-    "Video" : 1
-  },
-  "SoulcaliburVI" : {
-    "Banner" : 1,
-    "Bilde" : "SoulcaliburVI.jpg",
-    "Pris" : "199.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Soulcalibur VI Switch",
-    "Video" : 1
-  },
-  "Spiderman" : {
-    "Banner" : 1,
-    "Bilde" : "Spiderman.jpg",
-    "Pris" : "299.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Spiderman Switch",
-    "Video" : 1
-  },
-  "Spyro" : {
-    "Banner" : 1,
-    "Bilde" : "Spyro.jpg",
-    "Pris" : "499.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Spyro Switch",
-    "Video" : 1
-  },
-  "Valkyria4" : {
-    "Banner" : 1,
-    "Bilde" : "VC4.jpg",
-    "Pris" : "299.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Valkyria Chronicles 4 Switch",
-    "Video" : 1
-  },
-  "Yakuza2" : {
-    "Banner" : 1,
-    "Bilde" : "Yakuza2.jpg",
-    "Pris" : "299.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Yakuza 2 Switch",
-    "Video" : 1
     }
   },
   "pcogmacSpill" : {
     "ACO" : {
-    "Banner" : 1,
-    "Bilde" : "ACO.jpg",
-    "Pris" : "499.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Assassins Creed Oddesey PC/Mac",
-    "Video" : 1
-  },
-  "BF5" : {
-    "Banner" : "BF5banner.jpg",
-    "Bilde" : "BF5.jpg",
-    "Ferdig" : 1,
-    "Pris" : "499.-",
-    "Produktbeskrivelse" : "Enter mankind’s greatest conflict with Battlefield™ V as the series goes back to its roots in a never-before-seen portrayal of World War 2. Take on all-out multiplayer across the world or witness human drama set against global combat in single player War Stories.",
-    "Tittel" : "Battlefield 5 PC/Mac",
-    "Video" : "https://www.youtube.com/embed/fb1MR85XFOc"
-  },
-  "BO4" : {
-    "Banner" : 1,
-    "Bilde" : "BO4.jpg",
-    "Pris" : "299.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Black Ops 4 PC/Mac",
-    "Video" : 1
-  },
-  "DragonQuestXI" : {
-    "Banner" : 1,
-    "Bilde" : "DQXI.jpg",
-    "Pris" : "599.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Dragon Quest XI PC/Mac",
-    "Video" : 1
-  },
-  "Fallout76" : {
-    "Banner" : "Fallout76Banner.jpg",
-    "Bilde" : "Fallout76.jpg",
-    "Ferdig" : 1,
-    "Pris" : "299.-",
-    "Produktbeskrivelse" : "Bethesda Game Studios, the award-winning creators of Skyrim and Fallout 4, welcome you to Fallout 76, the online prequel where every surviving human is a real person. Work together, or not, to survive. Under the threat of nuclear annihilation, you’ll experience the largest, most dynamic world ever created in the legendary Fallout universe.",
-    "Tittel" : "Fallout 76 PC/Mac",
-    "Video" : "https://www.youtube.com/embed/M9FGaan35s0"
-  },
-  "Fifa19" : {
-    "Banner" : 1,
-    "Bilde" : "",
-    "Pris" : "399.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Fifa 19 PC/Mac",
-    "Video" : 1
-  },
-  "Hitman2" : {
-    "Banner" : 1,
-    "Bilde" : "Hitman2.jpg",
-    "Pris" : "199.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Hitman 2 PC/Mac",
-    "Video" : 1
-  },
-  "NHL19" : {
-    "Banner" : 1,
-    "Bilde" : "NHL19.jpg",
-    "Pris" : "299.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "NHL 19 PC/Mac",
-    "Video" : 1
-  },
-  "RDR2" : {
-    "Banner" : "rdr2banner.jpg",
-    "Bilde" : "rdr2.jpg",
-    "Ferdig" : 1,
-    "Pris" : "399.-",
-    "Produktbeskrivelse" : "America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.",
-    "Tittel" : "Red Dead Redemption 2 PC/Mac",
-    "Video" : "https://www.youtube.com/embed/Dw_oH5oiUSE"
-  },
-  "ShadowOfTheTombRaider" : {
-    "Banner" : 1,
-    "Bilde" : "SOTTR.jpg",
-    "Pris" : "199.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Shadow Of The Tomb Raider PC/Mac",
-    "Video" : 1
-  },
-  "SoulcaliburVI" : {
-    "Banner" : 1,
-    "Bilde" : "SoulcaliburVI.jpg",
-    "Pris" : "199.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Soulcalibur VI PC/Mac",
-    "Video" : 1
-  },
-  "Spiderman" : {
-    "Banner" : 1,
-    "Bilde" : "Spiderman.jpg",
-    "Pris" : "299.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Spiderman PC/Mac",
-    "Video" : 1
-  },
-  "Spyro" : {
-    "Banner" : 1,
-    "Bilde" : "Spyro.jpg",
-    "Pris" : "499.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Spyro PC/Mac",
-    "Video" : 1
-  },
-  "Valkyria4" : {
-    "Banner" : 1,
-    "Bilde" : "VC4.jpg",
-    "Pris" : "299.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Valkyria Chronicles 4 PC/Mac",
-    "Video" : 1
-  },
-  "Yakuza2" : {
-    "Banner" : 1,
-    "Bilde" : "Yakuza2.jpg",
-    "Pris" : "299.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Yakuza 2 PC/Mac",
-    "Video" : 1
-    }
-  },
-  "WiiSpill" : {
-    "ACO" : {
-    "Banner" : 1,
-    "Bilde" : "ACO.jpg",
-    "Pris" : "499.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Assassins Creed Oddesey Wii",
-    "Video" : 1
-  },
-  "BF5" : {
-    "Banner" : "BF5banner.jpg",
-    "Bilde" : "BF5.jpg",
-    "Ferdig" : 1,
-    "Pris" : "499.-",
-    "Produktbeskrivelse" : "Enter mankind’s greatest conflict with Battlefield™ V as the series goes back to its roots in a never-before-seen portrayal of World War 2. Take on all-out multiplayer across the world or witness human drama set against global combat in single player War Stories.",
-    "Tittel" : "Battlefield 5 Wii",
-    "Video" : "https://www.youtube.com/embed/fb1MR85XFOc"
-  },
-  "BO4" : {
-    "Banner" : 1,
-    "Bilde" : "BO4.jpg",
-    "Pris" : "299.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Black Ops 4 Wii",
-    "Video" : 1
-  },
-  "DragonQuestXI" : {
-    "Banner" : 1,
-    "Bilde" : "DQXI.jpg",
-    "Pris" : "599.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Dragon Quest XI Wii",
-    "Video" : 1
-  },
-  "Fallout76" : {
-    "Banner" : "Fallout76Banner.jpg",
-    "Bilde" : "Fallout76.jpg",
-    "Ferdig" : 1,
-    "Pris" : "299.-",
-    "Produktbeskrivelse" : "Bethesda Game Studios, the award-winning creators of Skyrim and Fallout 4, welcome you to Fallout 76, the online prequel where every surviving human is a real person. Work together, or not, to survive. Under the threat of nuclear annihilation, you’ll experience the largest, most dynamic world ever created in the legendary Fallout universe.",
-    "Tittel" : "Fallout 76 Wii",
-    "Video" : "https://www.youtube.com/embed/M9FGaan35s0"
-  },
-  "Fifa19" : {
-    "Banner" : 1,
-    "Bilde" : "",
-    "Pris" : "399.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Fifa 19 Wii",
-    "Video" : 1
-  },
-  "Hitman2" : {
-    "Banner" : 1,
-    "Bilde" : "Hitman2.jpg",
-    "Pris" : "199.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Hitman 2 Wii",
-    "Video" : 1
-  },
-  "NHL19" : {
-    "Banner" : 1,
-    "Bilde" : "NHL19.jpg",
-    "Pris" : "299.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "NHL 19 Wii",
-    "Video" : 1
-  },
-  "RDR2" : {
-    "Banner" : "rdr2banner.jpg",
-    "Bilde" : "rdr2.jpg",
-    "Ferdig" : 1,
-    "Pris" : "399.-",
-    "Produktbeskrivelse" : "America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.",
-    "Tittel" : "Red Dead Redemption 2 Wii",
-    "Video" : "https://www.youtube.com/embed/Dw_oH5oiUSE"
-  },
-  "ShadowOfTheTombRaider" : {
-    "Banner" : 1,
-    "Bilde" : "SOTTR.jpg",
-    "Pris" : "199.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Shadow Of The Tomb Raider Wii",
-    "Video" : 1
-  },
-  "SoulcaliburVI" : {
-    "Banner" : 1,
-    "Bilde" : "SoulcaliburVI.jpg",
-    "Pris" : "199.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Soulcalibur VI Wii",
-    "Video" : 1
-  },
-  "Spiderman" : {
-    "Banner" : 1,
-    "Bilde" : "Spiderman.jpg",
-    "Pris" : "299.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Spiderman Wii",
-    "Video" : 1
-  },
-  "Spyro" : {
-    "Banner" : 1,
-    "Bilde" : "Spyro.jpg",
-    "Pris" : "499.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Spyro Wii",
-    "Video" : 1
-  },
-  "Valkyria4" : {
-    "Banner" : 1,
-    "Bilde" : "VC4.jpg",
-    "Pris" : "299.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Valkyria Chronicles 4 Wii",
-    "Video" : 1
-  },
-  "Yakuza2" : {
-    "Banner" : 1,
-    "Bilde" : "Yakuza2.jpg",
-    "Pris" : "299.-",
-    "Produktbeskrivelse" : 1,
-    "Tittel" : "Yakuza 2 Wii",
-    "Video" : 1
+      "Banner" : 1,
+      "Bilde" : "ACO.jpg",
+      "Pris" : "499.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Assassins Creed Oddesey PC/Mac",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "BF5" : {
+      "Banner" : "BF5banner.jpg",
+      "Bilde" : "BF5.jpg",
+      "Ferdig" : 1,
+      "Pris" : "499.-",
+      "Produktbeskrivelse" : "Enter mankind’s greatest conflict with Battlefield™ V as the series goes back to its roots in a never-before-seen portrayal of World War 2. Take on all-out multiplayer across the world or witness human drama set against global combat in single player War Stories.",
+      "Tittel" : "Battlefield 5 PC/Mac",
+      "Video" : "https://www.youtube.com/embed/fb1MR85XFOc"
+    },
+    "BO4" : {
+      "Banner" : 1,
+      "Bilde" : "BO4.jpg",
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Black Ops 4 PC/Mac",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "DragonQuestXI" : {
+      "Banner" : 1,
+      "Bilde" : "DQXI.jpg",
+      "Pris" : "599.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Dragon Quest XI PC/Mac",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "Fallout76" : {
+      "Banner" : "Fallout76Banner.jpg",
+      "Bilde" : "Fallout76.jpg",
+      "Ferdig" : 1,
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Bethesda Game Studios, the award-winning creators of Skyrim and Fallout 4, welcome you to Fallout 76, the online prequel where every surviving human is a real person. Work together, or not, to survive. Under the threat of nuclear annihilation, you’ll experience the largest, most dynamic world ever created in the legendary Fallout universe.",
+      "Tittel" : "Fallout 76 PC/Mac",
+      "Video" : "https://www.youtube.com/embed/M9FGaan35s0"
+    },
+    "Fifa19" : {
+      "Banner" : 1,
+      "Bilde" : "",
+      "Pris" : "399.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Fifa 19 PC/Mac",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "Hitman2" : {
+      "Banner" : 1,
+      "Bilde" : "Hitman2.jpg",
+      "Pris" : "199.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Hitman 2 PC/Mac",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "NHL19" : {
+      "Banner" : 1,
+      "Bilde" : "NHL19.jpg",
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "NHL 19 PC/Mac",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "RDR2" : {
+      "Banner" : "rdr2banner.jpg",
+      "Bilde" : "rdr2.jpg",
+      "Ferdig" : 1,
+      "Pris" : "399.-",
+      "Produktbeskrivelse" : "America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.",
+      "Tittel" : "Red Dead Redemption 2 PC/Mac",
+      "Video" : "https://www.youtube.com/embed/Dw_oH5oiUSE"
+    },
+    "ShadowOfTheTombRaider" : {
+      "Banner" : 1,
+      "Bilde" : "SOTTR.jpg",
+      "Pris" : "199.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Shadow Of The Tomb Raider PC/Mac",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "SoulcaliburVI" : {
+      "Banner" : 1,
+      "Bilde" : "SoulcaliburVI.jpg",
+      "Pris" : "199.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Soulcalibur VI PC/Mac",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "Spiderman" : {
+      "Banner" : 1,
+      "Bilde" : "Spiderman.jpg",
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Spiderman PC/Mac",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "Spyro" : {
+      "Banner" : 1,
+      "Bilde" : "Spyro.jpg",
+      "Pris" : "499.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Spyro PC/Mac",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "Valkyria4" : {
+      "Banner" : 1,
+      "Bilde" : "VC4.jpg",
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Valkyria Chronicles 4 PC/Mac",
+      "Video" : "ikkeferdig.jpg"
+    },
+    "Yakuza2" : {
+      "Banner" : 1,
+      "Bilde" : "Yakuza2.jpg",
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Kommer snart",
+      "Tittel" : "Yakuza 2 PC/Mac",
+      "Video" : "ikkeferdig.jpg"
     }
   }
 }
