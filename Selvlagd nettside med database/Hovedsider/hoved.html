@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" href="hovedside.css">
     <meta charset="utf-8">
-    <title>Hjemmeside</title>
+    <title></title>
   </head>
   <body>
     <header>
@@ -45,31 +45,27 @@
               const PS4Spill = db.ref("PS4Spill");
               function visPS4Spill(snapshot){
                   let spillSnap = snapshot.val();
-<<<<<<< HEAD
-                  main.innerHTML +=`
-                    <div class="box">
-=======
                   let key = snapshot.key;
                   main.innerHTML +=`
                     <div class="box">
                     <a href="produktside.html?id=${key}">
->>>>>>> bc65267591d39fa99c0f266c608b7011b0c33a95
                       <article class="showcase">
                         <h1>${spillSnap.Tittel}</h1>
                         <!-- La inn noe greier her for å definere bildet som skulle legges til hvis det ikke fant noe i databasen, bruker ''Fifa 19 PS¤'' som eksempel under ''PS4'', der vil ''untitled.png'' komme opp istedenfor. -->
                         <img src="${"../Bilder/" + (spillSnap.Bilde  || "untitled.png")}" alt="">
-<<<<<<< HEAD
-=======
-                      </a>
->>>>>>> bc65267591d39fa99c0f266c608b7011b0c33a95
                         <p>${spillSnap.Pris}</p>
+                        </a>
                       </article>
                     </div>
                   `
               }
               function visAlfabetisk(){
                 main.innerHTML = ``
-                PS4Spill.on("child_added",visPS4Spill);
+                PS4Spill
+                .orderByChild("Tittel")
+                .startAt("A")
+                .endAt("Z")
+                .on("child_added",visPS4Spill);
                 }
                 visAlfabetisk();
               function visFerdig() {
@@ -104,7 +100,6 @@
               function topFunction() {
                 document.body.scrollTop = 0;
                 document.documentElement.scrollTop = 0;
-
               }
           </script>
         </div>

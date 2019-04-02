@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="hovedside.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li> <a href="hoved.html">Hjemmeside</a></li>
+        <li> <a href="PS4.html">PS4</a></li>
+        <li> <a href="XBOX.html"><u>Xbox</u></a></li>
+        <li> <a href="Switch.html">Nintendo Switch</a></li>
+        <li> <a href="PC.html">PC & Mac</a></li>
+        <li> <a href="Wii.html">Wii</a></li>
+      </ul>
+      <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+      <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyARRj4Ge56Db8XwmTyQuheBIh8XlZlybjk",
+          authDomain: "nettside-m-database-6cf64.firebaseapp.com",
+          databaseURL: "https://nettside-m-database-6cf64.firebaseio.com",
+          projectId: "nettside-m-database-6cf64",
+          storageBucket: "nettside-m-database-6cf64.appspot.com",
+          messagingSenderId: "797171397362"
+        };
+        firebase.initializeApp(config);
+      </script>
+    </header>
+    <div class="grid">
+      <div class="side">
+        <button onclick="visAlfabetisk(); topFunction()">Vis alfabetisk</button>
+        <button onclick="visFerdig(); topFunction()">Ferdige Produkter</button>
+        <button onclick="visLavest(); topFunction()">Lavest til høyest pris</button>
+        <button onclick="visAtilF(); topFunction()">Vis A til F</button>
+        <button onclick="visGtilZ(); topFunction()">Vis G til Z</button>
+      </div>
+      <div class="hoved">
+      <main>
+          <script>
+              const main = document.querySelector("main");
+              const db = firebase.database();
+              const XboxSpill = db.ref("XboxSpill");
+              function visPS4Spill(snapshot){
+                  let spillSnap = snapshot.val();
+                  let key = snapshot.key;
+                  main.innerHTML +=`
+                    <div class="box">
+                    <a href="produktside.html?id=${key}">
+                      <article class="showcase">
+                        <h1>${spillSnap.Tittel}</h1>
+                        <!-- La inn noe greier her for å definere bildet som skulle legges til hvis det ikke fant noe i databasen, bruker ''Fifa 19 PS¤'' som eksempel under ''PS4'', der vil ''untitled.png'' komme opp istedenfor. -->
+                        <img src="${"../Bilder/" + (spillSnap.Bilde  || "untitled.png")}" alt="">
+                        </a>
+                        <p>${spillSnap.Pris}</p>
+                      </article>
+                    </div>
+                  `
+              }
+              function visAlfabetisk(){
+                main.innerHTML = ``
+                XboxSpill
+                .orderByChild("Tittel")
+                .startAt("A")
+                .endAt("Z")
+                .on("child_added",visPS4Spill);
+                }
+                visAlfabetisk();
+              function visFerdig() {
+                main.innerHTML = ``
+                XboxSpill
+                  .orderByChild("Ferdig")
+                  .equalTo(1)
+                  .on("child_added",visPS4Spill);
+              }
+              function visLavest() {
+                main.innerHTML = ``
+                XboxSpill
+                  .orderByChild("Pris")
+                  .on("child_added",visPS4Spill);
+              }
+              function visAtilF() {
+                main.innerHTML = ``
+                XboxSpill
+                  .orderByChild("Tittel")
+                  .startAt("A")
+                  .endAt("G")
+                  .on("child_added",visPS4Spill);
+              }
+              function visGtilZ() {
+                main.innerHTML = ``
+                XboxSpill
+                  .orderByChild("Tittel")
+                  .startAt("G")
+                  .endAt("Z")
+                  .on("child_added",visPS4Spill);
+            }
+              function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+
+              }
+          </script>
+        </div>
+    </div>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>
