@@ -70,6 +70,10 @@ article a {
   text-decoration: none;
   color: black;
 }
+main>a>img {
+  width: 75%;
+  padding-bottom: 5%;
+}
 @media (max-width: 1200px) {
   main {
         margin-left: 0%;

@@ -14,102 +14,32 @@
         <li> <a href="Switch.html">Nintendo Switch</a></li>
         <li> <a href="PC.html">PC & Mac</a></li>
         <li> <a href="Wii.html">Wii</a></li>
+        <script>
+        var visited = localStorage.getItem('visited');
+                    if (!visited) {
+                      alert("Trykk på ''ferdige produkter'' under spillsidene (PS4, Xbox osv.) for å se alle produkter som har blitt gjort ferdig.");
+                      localStorage.setItem('visited', true);
+                    }
+        </script>
       </ul>
-      <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
-      <script>
-        // Initialize Firebase
-        var config = {
-          apiKey: "AIzaSyARRj4Ge56Db8XwmTyQuheBIh8XlZlybjk",
-          authDomain: "nettside-m-database-6cf64.firebaseapp.com",
-          databaseURL: "https://nettside-m-database-6cf64.firebaseio.com",
-          projectId: "nettside-m-database-6cf64",
-          storageBucket: "nettside-m-database-6cf64.appspot.com",
-          messagingSenderId: "797171397362"
-        };
-        firebase.initializeApp(config);
-      </script>
+
     </header>
     <div class="grid">
       <div class="side">
-        <button onclick="visAlfabetisk(); topFunction()">Vis alfabetisk</button>
-        <button onclick="visFerdig(); topFunction()">Ferdige Produkter</button>
-        <button onclick="visLavest(); topFunction()">Lavest til høyest pris</button>
-        <button onclick="visAtilF(); topFunction()">Vis A til F</button>
-        <button onclick="visGtilZ(); topFunction()">Vis G til Z</button>
+        <!-- Lar div boksene med grid, side osv bli her for å kunne få margin på venstreside uten å bruke et annet css dokument -->
       </div>
-      <div class="hoved">
-      <main>
-          <script>
-              const main = document.querySelector("main");
-              const db = firebase.database();
-              const PS4Spill = db.ref("PS4Spill");
-              function visPS4Spill(snapshot){
-                  let spillSnap = snapshot.val();
-                  let key = snapshot.key;
-                  main.innerHTML +=`
-                    <div class="box">
-                    <a href="produktside.html?id=${key}">
-                      <article class="showcase">
-                        <h1>${spillSnap.Tittel}</h1>
-                        <!-- La inn noe greier her for å definere bildet som skulle legges til hvis det ikke fant noe i databasen, bruker ''Fifa 19 PS¤'' som eksempel under ''PS4'', der vil ''untitled.png'' komme opp istedenfor. -->
-                        <img src="${"../Bilder/" + (spillSnap.Bilde  || "untitled.png")}" alt="">
-                        <p>${spillSnap.Pris}</p>
-                        </a>
-                      </article>
-                    </div>
-                  `
-              }
-              function visAlfabetisk(){
-                main.innerHTML = ``
-                PS4Spill
-                .orderByChild("Tittel")
-                .startAt("A")
-                .endAt("Z")
-                .on("child_added",visPS4Spill);
-                }
-                visAlfabetisk();
-              function visFerdig() {
-                main.innerHTML = ``
-                PS4Spill
-                  .orderByChild("Ferdig")
-                  .equalTo(1)
-                  .on("child_added",visPS4Spill);
-              }
-              function visLavest() {
-                main.innerHTML = ``
-                PS4Spill
-                  .orderByChild("Pris")
-                  .on("child_added",visPS4Spill);
-              }
-              function visAtilF() {
-                main.innerHTML = ``
-                PS4Spill
-                  .orderByChild("Tittel")
-                  .startAt("A")
-                  .endAt("G")
-                  .on("child_added",visPS4Spill);
-              }
-              function visGtilZ() {
-                main.innerHTML = ``
-                PS4Spill
-                  .orderByChild("Tittel")
-                  .startAt("G")
-                  .endAt("Z")
-                  .on("child_added",visPS4Spill);
-            }
-              function topFunction() {
-                document.body.scrollTop = 0;
-                document.documentElement.scrollTop = 0;
-              }
-              var visited = localStorage.getItem('visited');
-              if (!visited) {
-                alert("Trykk på ''ferdige produkter'' for å se alle produkter som har blitt gjort ferdig.");
-                localStorage.setItem('visited', true);
-              }
-          </script>
-        </div>
+        <div class="hoved">
+          <!--Velger å bruke lite javascript på forsiden, da det bare vil legge til ekstra mye arbeid uten mye å få tilbake. Kunne ha lagt alt inn i databasen, men følte at det ville være bedre å ha det slik det er nå.-->
+          <main>
+              <a href="PS4.html"> <img src="..\Bilder\ps4logo.jpg" alt=""></a>
+              <a href="XBOX.html"><img src="..\Bilder\xbox.jpg" alt=""></a>
+              <a href="Switch.html"><img src="..\Bilder\switch.jpg" alt=""></a>
+              <a href="PC.html"><img src="..\Bilder\pc.jpg" alt=""></a>
+              <a href="Wii.html"><img src="..\Bilder\wii.jpg" alt=""></a>
+              <a href="Tilbud.html"><img src="..\Bilder\tilbud.jpg" alt=""></a>
+         </main>
+       </div>
     </div>
-    </main>
     <footer>
       <h2>Kontakt oss</h2>
       <h2>FAQ</h2>

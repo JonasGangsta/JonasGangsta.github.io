@@ -122,6 +122,15 @@
       "Produktbeskrivelse" : "America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.",
       "Tittel" : "Red Dead Redemption 2 PS4",
       "Video" : "https://www.youtube.com/embed/Dw_oH5oiUSE"
+    },
+    "ps416" : {
+      "Banner" : "godofwarbanner.jpg",
+      "Bilde" : "godofwar.jpg",
+      "Ferdig" : 1,
+      "Pris" : "243.-",
+      "Produktbeskrivelse" : "His vengeance against the Gods of Olympus years behind him, Kratos now lives as a man in the realm of Norse Gods and monsters. It is in this harsh, unforgiving world that he must fight to survive… And teach his son to do the same.",
+      "Tittel" : "God of War PS4",
+      "Video" : "https://www.youtube.com/embed/K0u_kAWLJOA"
     }
   },
   "SwitchSpill" : {
@@ -247,6 +256,33 @@
       "Produktbeskrivelse" : "Kommer snart",
       "Tittel" : "Yakuza 2 Switch",
       "Video" : "ikkeferdig.jpg"
+    },
+    "ns16" : {
+      "Banner" : "SSBbanner.jpg",
+      "Bilde" : "SSB.jpg",
+      "Ferdig" : 1,
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Gaming icons clash in the ultimate brawl you can play anytime, anywhere! Smash rivals off the stage as new characters Simon Belmont and King K. Rool join Inkling, Ridley, and every fighter in Super Smash Bros. history. Enjoy enhanced speed and combat at new stages based on the Castlevania series, Super Mario Odyssey, and more!",
+      "Tittel" : "Super Smash Bros Switch",
+      "Video" : "https://www.youtube.com/embed/uHRwMmwbFnA"
+    },
+    "ns17" : {
+      "Banner" : "pikachubanner.jpg",
+      "Bilde" : "pikachu.png",
+      "Ferdig" : 1,
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Become the best Pokémon Trainer as you battle other Trainers, Gym Leaders, and the sinister Team Rocket. Catch Pokémon in the wild using a gentle throwing motion with either a Joy-Con™ controller or a Poké Ball™ Plus accessory, which will light up, vibrate, and make sounds to bring your adventure to life. You can also use button controls in Handheld Mode. Share your adventure with family or friends using a second Joy-Con or Poké Ball Plus (sold separately). You can even connect to the Pokémon™ GO app* using a compatible smartphone to bring over Pokémon originally discovered in the Kanto region!",
+      "Tittel" : "Lets go Pikachu",
+      "Video" : "https://www.youtube.com/embed/9jRtpMKLsts"
+    },
+    "ns18" : {
+      "Banner" : "civ6banner.jpg",
+      "Bilde" : "Civ6.png",
+      "Ferdig" : 1,
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Originally created by legendary game designer Sid Meier, Civilization is a turn-based strategy game in which you attempt to build an empire to stand the test of time. Explore a new land, research technology, conquer your enemies, and go head-to-head with history’s most renowned leaders as you attempt to build the greatest civilization the world has ever known. And now on Nintendo Switch, the quest to victory in Civilization VI can take place wherever, whenever.",
+      "Tittel" : "Civilization 6",
+      "Video" : "https://www.youtube.com/embed/p4TGVKLCLwM"
     }
   },
   "WiiSpill" : {
@@ -372,6 +408,33 @@
       "Produktbeskrivelse" : "Kommer snart",
       "Tittel" : "Yakuza 2 Wii",
       "Video" : "ikkeferdig.jpg"
+    },
+    "wii16" : {
+      "Banner" : "zeldabanner.jpg",
+      "Bilde" : "zeldawii.jpg",
+      "Ferdig" : 1,
+      "Pris" : "499.-",
+      "Produktbeskrivelse" : "Skyward Sword takes place at the beginning of the Zelda continuity: according to legend, three ancient Goddesses bestowed a great wish-granting power: the Triforce. The Demon King Demise sought the Triforce, and laid waste to much of the land in his quest for it.",
+      "Tittel" : "Zelda Wii",
+      "Video" : "https://www.youtube.com/embed/SMkvcKhVCEk"
+    },
+    "wii17" : {
+      "Banner" : "mariobrosbanner.jpg",
+      "Bilde" : "supermariobros.jpg",
+      "Ferdig" : 1,
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Lead Mario through worlds of adventure using the Wii Remote, and opt to save Princess Peach all by yourself or with a little help from your friends. New Super Mario Bros. Wii enables up to four players to get in on the action at the same time – creating chaos as you either work as a team or attempt to get ahead by being the first to hitch a ride on Yoshi, grab precious Power-Ups and generally look out for number one!",
+      "Tittel" : "Super Mario Bros Wii",
+      "Video" : "https://www.youtube.com/embed/GpcJNEWKzCY"
+    },
+    "wii18" : {
+      "Banner" : "mariokartbanner.jpg",
+      "Bilde" : "mariokart.jpg",
+      "Ferdig" : 1,
+      "Pris" : "299.-",
+      "Produktbeskrivelse" : "Players will also be able to hit the road as their own personalized Mii caricatures in addition to many classic and even some never-before seen characters in Mario Kart games. True to the series, Mario Kart Wii will feature adrenaline pumping racing action, a plethora of power-ups and masses of objects for players to use to slow down their rivals. Also with 10 battle arenas, players are sure to be kept busy between trips around the circuit.",
+      "Tittel" : "Mario Kart Wii",
+      "Video" : "https://www.youtube.com/embed/hbXRCm8wCmc"
     }
   },
   "XboxSpill" : {
@@ -497,6 +560,15 @@
       "Produktbeskrivelse" : "America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.",
       "Tittel" : "Red Dead Redemption 2 Xbox",
       "Video" : "https://www.youtube.com/embed/Dw_oH5oiUSE"
+    },
+    "xb16" : {
+      "Banner" : "justcause4banner.jpg",
+      "Bilde" : "justcause4.jpg",
+      "Ferdig" : 1,
+      "Pris" : "428.-",
+      "Produktbeskrivelse" : "Rogue agent Rico Rodriguez journeys to Solis, a huge South American world home of conflict, oppression and extreme weather conditions. Strap into your wingsuit, equip your fully customizable grappling hook, and get ready to bring the thunder!",
+      "Tittel" : "Just Cause 4 Xbox",
+      "Video" : "https://www.youtube.com/embed/Avhhj7iyBJ4"
     }
   },
   "pcogmacSpill" : {
@@ -622,6 +694,44 @@
       "Produktbeskrivelse" : "Kommer snart",
       "Tittel" : "Yakuza 2 PC/Mac",
       "Video" : "ikkeferdig.jpg"
+    },
+    "mac16" : {
+      "Banner" : "pubgbanner.jpg",
+      "Bilde" : "pubgsalg.jpg",
+      "Ferdig" : 1,
+      "Pris" : "349.-",
+      "Produktbeskrivelse" : "PLAYERUNKNOWN'S BATTLEGROUNDS is a battle royale shooter that pits 100 players against each other in a struggle for survival. Gather supplies and outwit your opponents to become the last person standing. PLAYERUNKNOWN, aka Brendan Greene, is a pioneer of the battle royale genre and the creator of the battle royale game modes in the ARMA series and H1Z1: King of the Kill. At PUBG Corp., Greene is working with a veteran team of developers to make PUBG into the world's premiere battle royale experience.",
+      "Tittel" : "Player Unknowns Battlegrounds PC",
+      "Video" : "https://www.youtube.com/embed/4rG9noTfb4A"
+    }
+  },
+  "tilbud" : {
+    "t1" : {
+      "Banner" : "pubgbanner.jpg",
+      "Bilde" : "pubgsalg.jpg",
+      "Ferdig" : 1,
+      "Pris" : "349.-",
+      "Produktbeskrivelse" : "PLAYERUNKNOWN'S BATTLEGROUNDS is a battle royale shooter that pits 100 players against each other in a struggle for survival. Gather supplies and outwit your opponents to become the last person standing. PLAYERUNKNOWN, aka Brendan Greene, is a pioneer of the battle royale genre and the creator of the battle royale game modes in the ARMA series and H1Z1: King of the Kill. At PUBG Corp., Greene is working with a veteran team of developers to make PUBG into the world's premiere battle royale experience.",
+      "Tittel" : "Player Unknowns Battlegrounds PC",
+      "Video" : "https://www.youtube.com/embed/4rG9noTfb4A"
+    },
+    "t2" : {
+      "Banner" : "justcause4banner.jpg",
+      "Bilde" : "justcause4.jpg",
+      "Ferdig" : 1,
+      "Pris" : "428.-",
+      "Produktbeskrivelse" : "Rogue agent Rico Rodriguez journeys to Solis, a huge South American world home of conflict, oppression and extreme weather conditions. Strap into your wingsuit, equip your fully customizable grappling hook, and get ready to bring the thunder!",
+      "Tittel" : "Just Cause 4 Xbox",
+      "Video" : "https://www.youtube.com/embed/Avhhj7iyBJ4"
+    },
+    "t3" : {
+      "Banner" : "godofwarbanner.jpg",
+      "Bilde" : "godofwar.jpg",
+      "Ferdig" : 1,
+      "Pris" : "243.-",
+      "Produktbeskrivelse" : "His vengeance against the Gods of Olympus years behind him, Kratos now lives as a man in the realm of Norse Gods and monsters. It is in this harsh, unforgiving world that he must fight to survive… And teach his son to do the same.",
+      "Tittel" : "God of War PS4",
+      "Video" : "https://www.youtube.com/embed/K0u_kAWLJOA"
     }
   }
 }

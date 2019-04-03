@@ -57,49 +57,33 @@
           let spillSnap = snapshot.val();
           let key = snapshot.key;
 
-
           main.innerHTML +=`
             <p>Gratulerer! Du har nå kjøpt:
             <b>${spillSnap.Tittel}</b></p>
             <p>Vi takker for handelen. Hvis du har noen spørsmål, vennligst kontakt oss på mail@mail.com</p>
           `
-          if (id.charAt(0)=== "P") {
-           PS4Spill.on("value", visSpill)
-          }
-          else if(id.charAt(0) === "X") {
-           XboxSpill.on("value", visSpill)
-          }
-          else if(id.charAt(0) === "N") {
-              SwitchSpill.on("value", visSpill)
-          }
-          else if(id.charAt(0) === "M") {
-              pcogmacSpill.on("value", visSpill)
-          }
-          else if(id.charAt(0) === "W") {
-              WiiSpill.on("value", visSpill)
-          }
+        }
 
-      }
+        if (id.charAt(0)=== "p") {
+         PS4Spill.on("value", visSpill)
+        }
+        else if(id.charAt(0) === "x") {
+         XboxSpill.on("value", visSpill)
+        }
+        else if(id.charAt(0) === "n") {
+            SwitchSpill.on("value", visSpill)
+        }
+        else if(id.charAt(0) === "m") {
+            pcogmacSpill.on("value", visSpill)
+        }
+        else if(id.charAt(0) === "w") {
+            WiiSpill.on("value", visSpill)
+        }
+  
 
-      PS4Spill.on("value",visSpill)
-      XboxSpill.on("value",visSpill)
-      SwitchSpill.on("value", visSpill)
-      pcogmacSpill.on("value", visSpill)
-      WiiSpill.on("value", visSpill)
-      </script>
+        </script>
     </main>
-    <footer>
-      <h2>Kontakt oss</h2>
-      <h2>FAQ</h2>
-      <h2>Om oss</h2>
-      <p><a href="mailto:mail@mail.com" target="_top">mail@mail.com</a></p>
-      <p>Hvem er vi?</p>
-      <p>Spillbutikk</p>
-      <p>Tlf: 99 99 99 99</p>
-      <p>En nettside.</p>
-      <p>Lokalisert på Høvik, 1363</p>
-      <p><a href="#">Live chat</a> </p>
-    </footer>
+
 
 
   </body>

@@ -21,7 +21,7 @@
   </script>
 
 </head>
-  <body>
+<body>
     <header>
       <ul>
         <li> <a href="hoved.html">Hjemmeside</a></li>
@@ -32,7 +32,6 @@
         <li> <a href="Wii.html">Wii</a></li>
       </ul>
     </header>
-
     <main>
       <script>
 
@@ -51,6 +50,7 @@
       let SwitchSpill = db.ref("SwitchSpill/" + id)
       let pcogmacSpill = db.ref("pcogmacSpill/" + id)
       let WiiSpill = db.ref("WiiSpill/" + id)
+      var tilbud = db.ref("tilbud/" + id)
 
       function visSpill(snapshot){
           console.log(snapshot.val());
@@ -72,29 +72,26 @@
                 </div>
               </article>
           `
-          if (id.charAt(0)=== "P") {
-           PS4Spill.on("value", visSpill)
-          }
-          else if(id.charAt(0) === "X") {
-           XboxSpill.on("value", visSpill)
-          }
-          else if(id.charAt(0) === "N") {
-              SwitchSpill.on("value", visSpill)
-          }
-          else if(id.charAt(0) === "M") {
-              pcogmacSpill.on("value", visSpill)
-          }
-          else if(id.charAt(0) === "W") {
-              WiiSpill.on("value", visSpill)
-          }
       }
 
-      PS4Spill.on("value",visSpill)
-      XboxSpill.on("value",visSpill)
-      SwitchSpill.on("value", visSpill)
-      pcogmacSpill.on("value", visSpill)
-      WiiSpill.on("value", visSpill)
-
+          if (id.charAt(0)=== "p") {
+             PS4Spill.on("value", visSpill)
+          }
+          else if(id.charAt(0) === "x") {
+             XboxSpill.on("value", visSpill)
+          }
+          else if(id.charAt(0) === "n") {
+             SwitchSpill.on("value", visSpill)
+          }
+          else if(id.charAt(0) === "m") {
+             pcogmacSpill.on("value", visSpill)
+          }
+          else if(id.charAt(0) === "w") {
+             WiiSpill.on("value", visSpill)
+          }
+          else if(id.charAt(0) === "t") {
+             tilbud.on("value", visSpill)
+          }
       </script>
     </main>
     <footer>
@@ -109,7 +106,5 @@
       <p>Lokalisert på Høvik, 1363</p>
       <p><a href="#">Live chat</a> </p>
     </footer>
-
-
   </body>
 </html>
