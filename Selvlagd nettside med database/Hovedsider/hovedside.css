@@ -1,3 +1,4 @@
+html { overflow-y: scroll; } /*Dette er her for å tvinge scrollbaren til å konstant være der, slik at nettsiden ikke endrer seg etter at denne kommer*/
 ul {
   list-style-type: none;
   color: black;
@@ -5,7 +6,6 @@ ul {
   padding: 0.05%;
   overflow: hidden;
   background-color: #999;
-
 }
 header {
   position: sticky;
@@ -26,7 +26,6 @@ li>a {
   text-align: center;
   opacity: 0.8;
 }
-
 body {
   margin: 0;
   background-color: lightgrey;
@@ -35,6 +34,7 @@ li>a:hover {
   background-color: grey;
 }
 main {
+  min-height: 40vw;
   margin-left: 0;
   margin-right: 15%;
   background-color: white;
@@ -42,7 +42,7 @@ main {
   margin-top: 1%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-left: 7%;
+  padding-left: 10%;
   padding-top: 2%;
   padding-bottom: 2%;
 }
@@ -76,15 +76,8 @@ main>a>img {
 }
 @media (max-width: 1200px) {
   main {
-        margin-left: 0%;
-        margin-right: 15%;
-        background-color: white;
-        height: 100%;
-        margin-top: 1%;
-        display: grid;
         grid-template-columns: 1fr 1fr;
-        padding-top: 2%;
-        padding-left: 11%;
+        padding-left: 15%;
      }
  article p {
    text-align: center;
@@ -99,16 +92,8 @@ main>a>img {
 }
 @media (max-width: 900px) {
   main {
-     margin-left: 0%;
-     margin-right: 15%;
-     background-color: white;
-     height: 100%;
-     margin-top: 1%;
-     margin-bottom: 20%;
-     display: grid;
      grid-template-columns: 1fr;
-     padding-left: 20%;
-     padding-top: 2%;
+     padding-left: 24%;
   }
   article p {
     text-align: center;
