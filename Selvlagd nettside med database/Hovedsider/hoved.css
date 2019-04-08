@@ -6,7 +6,6 @@ ul {
   padding: 0.05%;
   overflow: hidden;
   background-color: #999;
-
 }
 header {
   position: sticky;
@@ -32,67 +31,60 @@ body {
   background-color: lightgrey;
 }
 li>a:hover {
-  background-color: #e89004;
+  background-color: grey;
 }
 main {
-  min-height: 35vw;
-  margin-left: 15%;
+  min-height: 30vw;
+  margin-left: 0;
   margin-right: 15%;
+  margin-left: 15%;
   background-color: white;
+  height: auto;
   margin-top: 1%;
-}
-.maingrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 13vw 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-
-img {
-  width: 100%;
-  height: 100%;
-  padding-bottom: 1%;
-  background-color: lightgrey;
+main>a>img {
+  width: 84%;
+  padding: 5%;
+  margin: 3%;
 }
-h1 {
-  font-size: 250%;
-  margin-top: 7%;
-  padding-left: 2%;
+img:hover{
+  box-shadow: 0px 0px 1px 1px lightgrey;
 }
-.beskrivelse {
-  padding-left: 2%;
-  width: 90%;
-  font-size: 1.5vw;
-  margin-top: 0;
+@media (max-width: 1200px) {
+  main {
+        grid-template-columns: 1fr 1fr;
+     }
+ article p {
+   text-align: center;
+   font-size: 1.2vw;
 }
-.video {
-  margin-top: 4%;
-  height: 17.5vw;
-  width: 90%;
+ article h1 {
+   font-size: 1.2vw;
+   }
+ li>a {
+   font-size: 2vw;
+ }
 }
-.prisgrid {
-  margin-top: 20%;
-  padding-left: 10%;
-  font-size: 3vw;
+@media (max-width: 900px) {
+  main {
+     grid-template-columns: 1fr;
+  }
+  article p {
+    text-align: center;
+    font-size: 2vw;
+  }
+  article h1 {
+    font-size: 2vw;
+  }
+  li>a {
+    font-size: 2.1vw;
+  }
 }
-.kjøp {
-  border: solid black;
-  margin-right: 40%;
-  padding-left: 10%;
-  background-color: orange;
-  opacity: 0.8;
-  text-decoration: none;
-  color: black;
-}
-a{
-  text-decoration: none;
-  color: black;
-}
-.kjøp:hover{
-  opacity: 1;
-}
-.prisgrid {
+.grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 15% 85%;
 }
 footer {
   margin-left: 15%;
@@ -120,7 +112,6 @@ footer>h3>a {
 footer>h3>a:hover {
 text-decoration: underline;
 }
-
 footer>p {
   font-size: 70%;
   font-weight: 600;

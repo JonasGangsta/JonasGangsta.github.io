@@ -1,3 +1,4 @@
+html { overflow-y: scroll; } /*Dette er her for å tvinge scrollbaren til å konstant være der, slik at nettsiden ikke endrer seg etter at denne kommer*/
 ul {
   list-style-type: none;
   color: black;
@@ -12,6 +13,7 @@ header {
   top: 0;
   position: -webkit-sticky;
   margin: 0;
+  z-index: 2;
 }
 li>a {
   float: left;
@@ -35,36 +37,39 @@ li>a:hover {
   background-color: grey;
 }
 main {
+  min-height: 26vw;
   margin-left: 0;
   margin-right: 15%;
   background-color: white;
   height: auto;
   margin-top: 1%;
+  padding-left: 3%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-left: 7%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-top: 2%;
   padding-bottom: 2%;
 }
-.box:hover {
-  box-shadow: 0px 0px 2px 2px lightgrey;
-}
+
 .box {
-  margin-right: 40%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 0%;
+  margin-right: 15%;
+  padding-right: 1%;
   margin-bottom: 5%;
+  padding-left: 1%;
+}
+article img:hover{
+  box-shadow: 0px 0px 4px 4px lightgrey;
 }
 article img {
   width: 100%;
+
 }
 article p {
   text-align: center;
-  font-size: 0.8vw;
+  font-size: 1vw;
 }
 article h1 {
   font-size: 0.8vw;
+  height: 200%;
 }
 article a {
   text-decoration: none;
@@ -76,15 +81,8 @@ main>a>img {
 }
 @media (max-width: 1200px) {
   main {
-        margin-left: 0%;
-        margin-right: 15%;
-        background-color: white;
-        height: 100%;
-        margin-top: 1%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding-top: 2%;
-        padding-left: 11%;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 4%;
      }
  article p {
    text-align: center;
@@ -99,16 +97,24 @@ main>a>img {
 }
 @media (max-width: 900px) {
   main {
-     margin-left: 0%;
-     margin-right: 15%;
-     background-color: white;
-     height: 100%;
-     margin-top: 1%;
-     margin-bottom: 20%;
-     display: grid;
+     grid-template-columns: 1fr 1fr;
+     padding-left: 6%;
+  }
+  article p {
+    text-align: center;
+    font-size: 2vw;
+  }
+  article h1 {
+    font-size: 2vw;
+  }
+  li>a {
+    font-size: 2.1vw;
+  }
+}
+@media (max-width: 500px) {
+  main {
      grid-template-columns: 1fr;
-     padding-left: 20%;
-     padding-top: 2%;
+     padding-left: 10%;
   }
   article p {
     text-align: center;
@@ -147,11 +153,39 @@ main>a>img {
 footer {
   margin-left: 15%;
   margin-right: 12.75%;
-  background-color: white;
+  background-color: lightgrey;
   height: auto;
   margin-top: 1%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding-left: 7%;
   margin-bottom: 1%;
+  font-family: sans-serif;
+  font-size: 80%;
+  border-top: solid white;
+  border-bottom: solid white;
+}
+footer>h3 {
+  color: black;
+  font-weight: 600;
+}
+footer>h3>a {
+  text-decoration: none;
+  color: #383838;
+}
+footer>h3>a:hover {
+text-decoration: underline;
+}
+
+footer>p {
+  font-size: 70%;
+  font-weight: 600;
+  color: #383838;
+}
+footer>p>a {
+text-decoration: none;
+  color: #383838;
+}
+footer>p>a:hover {
+text-decoration: underline;
 }
