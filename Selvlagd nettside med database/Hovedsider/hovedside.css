@@ -35,11 +35,7 @@ li>a:hover {
   background-color: grey;
 }
 main {
-<<<<<<< HEAD
-  min-height: 40vw;
-=======
   min-height: 26vw;
->>>>>>> d6e670752816b6ed3dc90ebadb6823f15dfef8df
   margin-left: 0;
   margin-right: 15%;
   background-color: white;
@@ -47,12 +43,7 @@ main {
   margin-top: 1%;
   padding-left: 3%;
   display: grid;
-<<<<<<< HEAD
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-left: 10%;
-=======
   grid-template-columns: 1fr 1fr 1fr 1fr;
->>>>>>> d6e670752816b6ed3dc90ebadb6823f15dfef8df
   padding-top: 2%;
   padding-bottom: 2%;
 }
@@ -88,13 +79,8 @@ main>a>img {
 }
 @media (max-width: 1200px) {
   main {
-<<<<<<< HEAD
-        grid-template-columns: 1fr 1fr;
-        padding-left: 15%;
-=======
         grid-template-columns: 1fr 1fr 1fr;
         padding-left: 4%;
->>>>>>> d6e670752816b6ed3dc90ebadb6823f15dfef8df
      }
  article p {
    text-align: center;
@@ -109,10 +95,6 @@ main>a>img {
 }
 @media (max-width: 900px) {
   main {
-<<<<<<< HEAD
-     grid-template-columns: 1fr;
-     padding-left: 24%;
-=======
      grid-template-columns: 1fr 1fr;
      padding-left: 6%;
   }
@@ -131,7 +113,6 @@ main>a>img {
   main {
      grid-template-columns: 1fr;
      padding-left: 10%;
->>>>>>> d6e670752816b6ed3dc90ebadb6823f15dfef8df
   }
   article p {
     text-align: center;

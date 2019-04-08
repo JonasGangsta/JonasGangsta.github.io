@@ -34,11 +34,7 @@ li>a:hover {
   background-color: #e89004;
 }
 main {
-<<<<<<< HEAD
-  min-height: 50vw;
-=======
   min-height: 35vw;
->>>>>>> d6e670752816b6ed3dc90ebadb6823f15dfef8df
   margin-left: 15%;
   margin-right: 15%;
   background-color: white;
@@ -100,11 +96,7 @@ a{
 footer {
   margin-left: 15%;
   margin-right: 15%;
-<<<<<<< HEAD
-  background-color: white;
-=======
   background-color: lightgrey;
->>>>>>> d6e670752816b6ed3dc90ebadb6823f15dfef8df
   height: auto;
   margin-top: 1%;
   display: grid;
