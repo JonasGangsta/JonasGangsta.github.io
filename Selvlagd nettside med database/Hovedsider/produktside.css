@@ -34,13 +34,15 @@ li>a:hover {
   background-color: #e89004;
 }
 main {
+<<<<<<< HEAD
   min-height: 50vw;
+=======
+  min-height: 35vw;
+>>>>>>> d6e670752816b6ed3dc90ebadb6823f15dfef8df
   margin-left: 15%;
   margin-right: 15%;
   background-color: white;
-  height: 100%;
   margin-top: 1%;
-  padding-bottom: 1%;
 }
 .maingrid {
   display: grid;
@@ -55,7 +57,7 @@ img {
   background-color: lightgrey;
 }
 h1 {
-  font-size: 4vw;
+  font-size: 250%;
   margin-top: 7%;
   padding-left: 2%;
 }
@@ -81,6 +83,12 @@ h1 {
   padding-left: 10%;
   background-color: orange;
   opacity: 0.8;
+  text-decoration: none;
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: black;
 }
 .kjøp:hover{
   opacity: 1;
@@ -92,13 +100,45 @@ h1 {
 footer {
   margin-left: 15%;
   margin-right: 15%;
+<<<<<<< HEAD
   background-color: white;
+=======
+  background-color: lightgrey;
+>>>>>>> d6e670752816b6ed3dc90ebadb6823f15dfef8df
   height: auto;
   margin-top: 1%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding-left: 7%;
   margin-bottom: 1%;
+  font-family: sans-serif;
+  font-size: 80%;
+  border-top: solid white;
+  border-bottom: solid white;
+}
+footer>h3 {
+  color: black;
+  font-weight: 600;
+}
+footer>h3>a {
+  text-decoration: none;
+  color: #383838;
+}
+footer>h3>a:hover {
+text-decoration: underline;
+}
+
+footer>p {
+  font-size: 70%;
+  font-weight: 600;
+  color: #383838;
+}
+footer>p>a {
+text-decoration: none;
+  color: #383838;
+}
+footer>p>a:hover {
+text-decoration: underline;
 }
 
 @media (max-width: 1200px) {
