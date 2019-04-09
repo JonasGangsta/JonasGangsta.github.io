@@ -24,11 +24,12 @@ li>a {
   padding-top: 2%;
   padding-bottom: 2%;
   text-align: center;
-  opacity: 0.8;
 }
 body {
   margin: 0;
   background-color: lightgrey;
+  background-image: url("https://i.pinimg.com/originals/5c/f2/66/5cf2660af5f4214def7166dc7a7c8062.jpg");
+  background-size: 100%;
 }
 li>a:hover {
   background-color: #e89004;
