@@ -5,7 +5,12 @@ ul {
   margin: 0;
   padding: 0.05%;
   overflow: hidden;
-  background-color: #999;
+  background-color: red;
+  background-image:
+    linear-gradient(
+      to top right,
+      #FDC830, #ff9068
+    );
 }
 header {
   position: sticky;
@@ -18,12 +23,11 @@ li>a {
   float: left;
   text-decoration: none;
   color: black;
-  background-color: orange;
   font-size: 1.5vw;
   font-family: sans-serif;
   width: 16.66667%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
   text-align: center;
 }
 body {
@@ -145,7 +149,7 @@ main>a>img {
   padding-bottom: 3%;
   margin-left: 5%;
   margin-top: 5%;
-  background-color: orange;
+  background-color: #FDC830;
   font-size: 1vw;
 }
 footer {
