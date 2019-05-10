@@ -28,15 +28,16 @@ li>a {
   padding-top: 1.5%;
   padding-bottom: 1.5%;
   text-align: center;
+  font-family: monospace;
 }
 body {
   margin: 0;
-  background-color: lightgrey;
   background-image: url("https://i.pinimg.com/originals/5c/f2/66/5cf2660af5f4214def7166dc7a7c8062.jpg");
   background-size: 100%;
+  background-attachment: fixed;
 }
 li>a:hover {
-  background-color: #e89004;
+  background-color: #e8a81e;
 }
 main {
   min-height: 10vw;
@@ -50,6 +51,12 @@ main {
 p {
   text-align: center;
   padding-top: 5%;
+}
+p>a {
+  color: black;
+}
+.gratulerer {
+  font-size: 120%;
 }
 @media (max-width: 1200px) {
  li>a {

@@ -28,15 +28,16 @@ li>a {
   padding-top: 1.5%;
   padding-bottom: 1.5%;
   text-align: center;
+  font-family: monospace;
 }
 body {
   margin: 0;
-  background-color: lightgrey;
   background-image: url("https://i.pinimg.com/originals/5c/f2/66/5cf2660af5f4214def7166dc7a7c8062.jpg");
   background-size: 100%;
+  background-attachment: fixed;
 }
 li>a:hover {
-  background-color: #e89004;
+  background-color: #e8a81e;
 }
 main {
   min-height: 35vw;
@@ -53,13 +54,12 @@ main {
 img {
   width: 100%;
   height: 100%;
-  padding-bottom: 1%;
-  background-color: lightgrey;
 }
 h1 {
   font-size: 250%;
   margin-top: 7%;
   padding-left: 2%;
+  font-family: monospace;
 }
 .beskrivelse {
   padding-left: 2%;
@@ -116,6 +116,7 @@ footer {
 footer>h3 {
   color: black;
   font-weight: 600;
+  font-size: 110%;
 }
 footer>h3>a {
   text-decoration: none;
@@ -124,9 +125,8 @@ footer>h3>a {
 footer>h3>a:hover {
 text-decoration: underline;
 }
-
 footer>p {
-  font-size: 70%;
+  font-size: 85%;
   font-weight: 600;
   color: #383838;
 }
