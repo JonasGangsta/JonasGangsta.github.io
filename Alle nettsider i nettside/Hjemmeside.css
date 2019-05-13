@@ -1,0 +1,46 @@
+body {
+  background-color: #48478A;
+}
+h1 {
+  text-align: center;
+  padding-top: 5%;
+  color: white;
+  font-family: "Open Sans";
+  font-size: 300%;
+  font-weight: lighter;
+}
+li {
+  display: inline-block;
+  padding-right: 5%;
+}
+
+li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px;
+  font-family: "Open Sans";
+  color: white;
+  font-weight: lighter;
+  font-size: 130%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav-bar {
+  padding-top: 10%;
+  padding-left: 25%;
+}
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width .5s;
+}
+.cool-link:hover::after {
+  width: 100%;
+  transition: width .5s;
+}
