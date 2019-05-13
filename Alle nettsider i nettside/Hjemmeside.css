@@ -8,6 +8,7 @@ h1 {
   font-family: "Open Sans";
   font-size: 300%;
   font-weight: lighter;
+  padding-left: 0%;
 }
 li {
   display: inline-block;
@@ -30,7 +31,7 @@ a:hover {
 
 .nav-bar {
   padding-top: 10%;
-  padding-left: 18%;
+  padding-left: 9.5%;
 }
 .cool-link::after {
   content: '';
