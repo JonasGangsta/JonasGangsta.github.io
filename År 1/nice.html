@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+
+<script>
+  var config = {
+    apiKey: "AIzaSyBPWCAd0Ow9_X9ROZtR1xEsR4RdzdSvKoI",
+    authDomain: "nice-e78c9.firebaseapp.com",
+    databaseURL: "https://nice-e78c9.firebaseio.com",
+    projectId: "nice-e78c9",
+    storageBucket: "nice-e78c9.appspot.com",
+    messagingSenderId: "1012761754520",
+    appId: "1:1012761754520:web:f61acf3b1a474265"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(config);
+</script>
+  </head>
+  <body>
+    <script>
+        const main = document.querySelector("main"); // Variabel som referer til mian-elementet
+          // Referanser til databasen
+        const db = firebase.database();
+        const pokemon = db.ref("pokemon"); // Referer til alt som ligger under sko i databasen
+        function visPokemon(snapshot){
+              //Javascript-funksjon som skriver varene ut på nettsiden i main-elementet
+            let pokeSnap = snapshot.val();
+            main.innerHTML +=`
+                <article class="Pokemon">
+                  <h1>${pokeSnap.Name}</h1>
+                  <img src="${pokeSnap.ImageURL}" alt="">
+                  <p>${pokeSnap.Type1} - ${pokeSnap.Type2}</p>
+                </article>
+            `
+        }
+        function visAlle(){
+          main.innerHTML = ``
+          pokemon.on("child_added",visPokemon);
+        }
+       // Funksjon under som legger til alle som har gress som type 1, og så alle som har gress som type 2.
+        function visGrass(){
+          main.innerHTML = ``
+          pokemon
+            .orderByChild("Type1")
+            .equalTo("Grass")
+            .on("child_added",visPokemon);
+          pokemon
+            .orderByChild("Type2")
+            .equalTo("Grass")
+            .on("child_added",visPokemon);
+        }
+        function visElectric(){
+          main.innerHTML = ``
+          pokemon
+            .orderByChild("Type1")
+            .equalTo("Electric")
+            .on("child_added",visPokemon);
+        }
+        function vis10(){
+          main.innerHTML= ``
+          pokemon
+            .limitToFirst(10)
+            .on("child_added",visPokemon);
+        }
+        function visAtilE(){
+          main.innerHTML= ``
+          pokemon
+          .orderByChild("Name")
+          .startAt("A")
+          .endAt("F")
+          .on("child_added",visPokemon);
+        }
+    </script>
+  </body>
+</html>
